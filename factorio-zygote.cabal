@@ -1,0 +1,113 @@
+cabal-version:       2.0
+name:                factorio-zygote
+version:             0.0.0
+synopsis:            Manipulate Factorio Blueprints
+description:         Manipulate Factorio Blueprints
+homepage:            https://github.com/Nolrai/factorio-zygote
+bug-reports:         https://github.com/Nolrai/factorio-zygote/issues
+license:             MIT
+license-file:        LICENSE
+author:              Chris A. Upshaw
+maintainer:          chrisaupshaw@gmail.com
+copyright:           2020 Chris A. Upshaw
+category:            Game
+build-type:          Simple
+extra-doc-files:     README.md
+                   , CHANGELOG.md
+tested-with:         GHC == 8.6.4
+
+source-repository head
+  type:                git
+  location:            https://github.com/Nolrai/factorio-zygote.git
+
+library
+  hs-source-dirs:      src
+  exposed-modules:     FactorioZygote
+                       Prelude
+
+  build-depends:       base-noprelude ^>= 4.12.0.0
+                     , Relude
+
+  ghc-options:         -Wall
+                       -Wincomplete-uni-patterns
+                       -Wincomplete-record-updates
+                       -Wcompat
+                       -Widentities
+                       -Wredundant-constraints
+                       -fhide-source-paths
+                       -Wmissing-export-lists
+                       -Wpartial-fields
+
+  default-language:    Haskell2010
+
+executable factorio-zygote
+  hs-source-dirs:      app
+  main-is:             Main.hs
+
+  build-depends:       base-noprelude ^>= 4.12.0.0
+                     , factorio-zygote
+                     , Relude
+
+  ghc-options:         -Wall
+                       -threaded
+                       -rtsopts
+                       -with-rtsopts=-N
+                       -Wincomplete-uni-patterns
+                       -Wincomplete-record-updates
+                       -Wcompat
+                       -Widentities
+                       -Wredundant-constraints
+                       -fhide-source-paths
+                       -Wmissing-export-lists
+                       -Wpartial-fields
+
+  default-language:    Haskell2010
+
+test-suite factorio-zygote-test
+  type:                exitcode-stdio-1.0
+  hs-source-dirs:      test
+  main-is:             Spec.hs
+
+  build-depends:       base-noprelude ^>= 4.12.0.0
+                     , factorio-zygote
+                     , Relude
+
+  ghc-options:         -Wall
+                       -threaded
+                       -rtsopts
+                       -with-rtsopts=-N
+                       -Wincomplete-uni-patterns
+                       -Wincomplete-record-updates
+                       -Wcompat
+                       -Widentities
+                       -Wredundant-constraints
+                       -fhide-source-paths
+                       -Wmissing-export-lists
+                       -Wpartial-fields
+
+  default-language:    Haskell2010
+
+benchmark factorio-zygote-benchmark
+  type:                exitcode-stdio-1.0
+  hs-source-dirs:      benchmark
+  main-is:             Main.hs
+
+  build-depends:       base-noprelude ^>= 4.12.0.0
+                     , gauge
+                     , factorio-zygote
+                     , Relude
+
+  ghc-options:         -Wall
+                       -threaded
+                       -rtsopts
+                       -with-rtsopts=-N
+                       -Wincomplete-uni-patterns
+                       -Wincomplete-record-updates
+                       -Wcompat
+                       -Widentities
+                       -Wredundant-constraints
+                       -fhide-source-paths
+                       -Wmissing-export-lists
+                       -Wpartial-fields
+
+  default-language:    Haskell2010
