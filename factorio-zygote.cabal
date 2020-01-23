@@ -48,6 +48,10 @@ executable factorio-zygote
   build-depends:       base-noprelude ^>= 4.12.0.0
                      , factorio-zygote
                      , relude
+                     , base64
+                     , zlib
+                     , text
+                     , bytestring
 
   ghc-options:         -Wall
                        -threaded
@@ -62,6 +66,7 @@ executable factorio-zygote
                        -Wmissing-export-lists
                        -Wpartial-fields
                        -Werror
+                       -Wwarn=incomplete-uni-patterns
 
   default-language:    Haskell2010
 

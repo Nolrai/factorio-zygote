@@ -3,6 +3,9 @@ resolver: lts-13.16
 extra-deps:
   - base-noprelude-4.12.0.0
   - relude-0.6.0.0
+  - base64-0.3.1.1@sha256:49928f5691e41e09f12ab22e4de2d2fb2ab05eef64bee613b6379d74a8da8658,2386
+  - base64-lens-0.1.0.3@sha256:72ea1bd8dc6490dd2570ebe3334919eb1af7a626a7dd9d93592591a7efcebde2,1720
+
 
 ghc-options:
   "$locals": -fhide-source-paths
