@@ -27,9 +27,9 @@ main = do
 
   putTextLn "Decoded base 64"
 
-  jasonByteString <- evaluateNF $ decompress compressed
+  jsonByteString <- evaluateNF $ decompress compressed
   putTextLn "Inflated with zlib:"
-  putTextLn . decodeUtf8 . toStrict $  jasonByteString
+  putTextLn . decodeUtf8 . toStrict $  jsonByteString
 
-  
+
 
