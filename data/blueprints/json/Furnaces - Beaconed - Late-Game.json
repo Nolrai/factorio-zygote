@@ -1,0 +1,1447 @@
+{
+    "blueprint": {
+        "entities": [
+            {
+                "entity_number": 1,
+                "items": {
+                    "speed-module-3": 2
+                },
+                "name": "beacon",
+                "position": {
+                    "x": -5,
+                    "y": -21
+                }
+            },
+            {
+                "entity_number": 2,
+                "items": {
+                    "speed-module-3": 2
+                },
+                "name": "beacon",
+                "position": {
+                    "x": 5,
+                    "y": -21
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 3,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 3,
+                    "y": -22
+                }
+            },
+            {
+                "entity_number": 4,
+                "name": "medium-electric-pole",
+                "position": {
+                    "x": -2,
+                    "y": -20
+                }
+            },
+            {
+                "entity_number": 5,
+                "name": "medium-electric-pole",
+                "position": {
+                    "x": 2,
+                    "y": -20
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 6,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 3,
+                    "y": -21
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 7,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 3,
+                    "y": -20
+                }
+            },
+            {
+                "entity_number": 8,
+                "items": {
+                    "speed-module-3": 2
+                },
+                "name": "beacon",
+                "position": {
+                    "x": -5,
+                    "y": -18
+                }
+            },
+            {
+                "entity_number": 9,
+                "items": {
+                    "productivity-module-3": 2
+                },
+                "name": "electric-furnace",
+                "position": {
+                    "x": 0,
+                    "y": -17
+                }
+            },
+            {
+                "entity_number": 10,
+                "items": {
+                    "speed-module-3": 2
+                },
+                "name": "beacon",
+                "position": {
+                    "x": 5,
+                    "y": -18
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 11,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 3,
+                    "y": -19
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 12,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 3,
+                    "y": -18
+                }
+            },
+            {
+                "entity_number": 13,
+                "items": {
+                    "speed-module-3": 2
+                },
+                "name": "beacon",
+                "position": {
+                    "x": -5,
+                    "y": -15
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 14,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": -3,
+                    "y": -16
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 15,
+                "name": "fast-inserter",
+                "position": {
+                    "x": -2,
+                    "y": -16
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 16,
+                "name": "fast-inserter",
+                "position": {
+                    "x": 2,
+                    "y": -16
+                }
+            },
+            {
+                "entity_number": 17,
+                "items": {
+                    "speed-module-3": 2
+                },
+                "name": "beacon",
+                "position": {
+                    "x": 5,
+                    "y": -15
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 18,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 3,
+                    "y": -17
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 19,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 3,
+                    "y": -16
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 20,
+                "name": "express-underground-belt",
+                "position": {
+                    "x": -3,
+                    "y": -15
+                },
+                "type": "input"
+            },
+            {
+                "direction": 2,
+                "entity_number": 21,
+                "name": "fast-inserter",
+                "position": {
+                    "x": -2,
+                    "y": -15
+                }
+            },
+            {
+                "entity_number": 22,
+                "name": "medium-electric-pole",
+                "position": {
+                    "x": -2,
+                    "y": -14
+                }
+            },
+            {
+                "entity_number": 23,
+                "items": {
+                    "productivity-module-3": 2
+                },
+                "name": "electric-furnace",
+                "position": {
+                    "x": 0,
+                    "y": -14
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 24,
+                "name": "fast-inserter",
+                "position": {
+                    "x": 2,
+                    "y": -15
+                }
+            },
+            {
+                "entity_number": 25,
+                "name": "medium-electric-pole",
+                "position": {
+                    "x": 2,
+                    "y": -14
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 26,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 3,
+                    "y": -15
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 27,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 3,
+                    "y": -14
+                }
+            },
+            {
+                "entity_number": 28,
+                "items": {
+                    "speed-module-3": 2
+                },
+                "name": "beacon",
+                "position": {
+                    "x": -5,
+                    "y": -12
+                }
+            },
+            {
+                "entity_number": 29,
+                "items": {
+                    "productivity-module-3": 2
+                },
+                "name": "electric-furnace",
+                "position": {
+                    "x": 0,
+                    "y": -11
+                }
+            },
+            {
+                "entity_number": 30,
+                "name": "small-lamp",
+                "position": {
+                    "x": 2,
+                    "y": -13
+                }
+            },
+            {
+                "entity_number": 31,
+                "items": {
+                    "speed-module-3": 2
+                },
+                "name": "beacon",
+                "position": {
+                    "x": 5,
+                    "y": -12
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 32,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 3,
+                    "y": -12
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 33,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 3,
+                    "y": -13
+                }
+            },
+            {
+                "entity_number": 34,
+                "items": {
+                    "speed-module-3": 2
+                },
+                "name": "beacon",
+                "position": {
+                    "x": -5,
+                    "y": -9
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 35,
+                "name": "express-underground-belt",
+                "position": {
+                    "x": -3,
+                    "y": -10
+                },
+                "type": "output"
+            },
+            {
+                "direction": 2,
+                "entity_number": 36,
+                "name": "fast-inserter",
+                "position": {
+                    "x": -2,
+                    "y": -10
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 37,
+                "name": "fast-inserter",
+                "position": {
+                    "x": 2,
+                    "y": -10
+                }
+            },
+            {
+                "entity_number": 38,
+                "items": {
+                    "speed-module-3": 2
+                },
+                "name": "beacon",
+                "position": {
+                    "x": 5,
+                    "y": -9
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 39,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 3,
+                    "y": -11
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 40,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 3,
+                    "y": -10
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 41,
+                "name": "express-underground-belt",
+                "position": {
+                    "x": -3,
+                    "y": -9
+                },
+                "type": "input"
+            },
+            {
+                "direction": 2,
+                "entity_number": 42,
+                "name": "fast-inserter",
+                "position": {
+                    "x": -2,
+                    "y": -9
+                }
+            },
+            {
+                "entity_number": 43,
+                "name": "medium-electric-pole",
+                "position": {
+                    "x": -2,
+                    "y": -8
+                }
+            },
+            {
+                "entity_number": 44,
+                "items": {
+                    "productivity-module-3": 2
+                },
+                "name": "electric-furnace",
+                "position": {
+                    "x": 0,
+                    "y": -8
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 45,
+                "name": "fast-inserter",
+                "position": {
+                    "x": 2,
+                    "y": -9
+                }
+            },
+            {
+                "entity_number": 46,
+                "name": "medium-electric-pole",
+                "position": {
+                    "x": 2,
+                    "y": -8
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 47,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 3,
+                    "y": -9
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 48,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 3,
+                    "y": -8
+                }
+            },
+            {
+                "entity_number": 49,
+                "items": {
+                    "speed-module-3": 2
+                },
+                "name": "beacon",
+                "position": {
+                    "x": -5,
+                    "y": -6
+                }
+            },
+            {
+                "entity_number": 50,
+                "items": {
+                    "productivity-module-3": 2
+                },
+                "name": "electric-furnace",
+                "position": {
+                    "x": 0,
+                    "y": -5
+                }
+            },
+            {
+                "entity_number": 51,
+                "items": {
+                    "speed-module-3": 2
+                },
+                "name": "beacon",
+                "position": {
+                    "x": 5,
+                    "y": -6
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 52,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 3,
+                    "y": -7
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 53,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 3,
+                    "y": -6
+                }
+            },
+            {
+                "entity_number": 54,
+                "items": {
+                    "speed-module-3": 2
+                },
+                "name": "beacon",
+                "position": {
+                    "x": -5,
+                    "y": -3
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 55,
+                "name": "express-underground-belt",
+                "position": {
+                    "x": -3,
+                    "y": -4
+                },
+                "type": "output"
+            },
+            {
+                "direction": 2,
+                "entity_number": 56,
+                "name": "fast-inserter",
+                "position": {
+                    "x": -2,
+                    "y": -4
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 57,
+                "name": "fast-inserter",
+                "position": {
+                    "x": 2,
+                    "y": -4
+                }
+            },
+            {
+                "entity_number": 58,
+                "items": {
+                    "speed-module-3": 2
+                },
+                "name": "beacon",
+                "position": {
+                    "x": 5,
+                    "y": -3
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 59,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 3,
+                    "y": -5
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 60,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 3,
+                    "y": -4
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 61,
+                "name": "express-underground-belt",
+                "position": {
+                    "x": -3,
+                    "y": -3
+                },
+                "type": "input"
+            },
+            {
+                "direction": 2,
+                "entity_number": 62,
+                "name": "fast-inserter",
+                "position": {
+                    "x": -2,
+                    "y": -3
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 63,
+                "name": "express-underground-belt",
+                "position": {
+                    "x": -3,
+                    "y": -2
+                },
+                "type": "output"
+            },
+            {
+                "entity_number": 64,
+                "name": "medium-electric-pole",
+                "position": {
+                    "x": -2,
+                    "y": -2
+                }
+            },
+            {
+                "entity_number": 65,
+                "items": {
+                    "productivity-module-3": 2
+                },
+                "name": "electric-furnace",
+                "position": {
+                    "x": 0,
+                    "y": -2
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 66,
+                "name": "fast-inserter",
+                "position": {
+                    "x": 2,
+                    "y": -3
+                }
+            },
+            {
+                "entity_number": 67,
+                "name": "medium-electric-pole",
+                "position": {
+                    "x": 2,
+                    "y": -2
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 68,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 3,
+                    "y": -3
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 69,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 3,
+                    "y": -2
+                }
+            },
+            {
+                "entity_number": 70,
+                "items": {
+                    "speed-module-3": 2
+                },
+                "name": "beacon",
+                "position": {
+                    "x": -5,
+                    "y": 0
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 71,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": -2,
+                    "y": -1
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 72,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": -3,
+                    "y": -1
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 73,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": -3,
+                    "y": 0
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 74,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": -2,
+                    "y": 0
+                }
+            },
+            {
+                "entity_number": 75,
+                "items": {
+                    "productivity-module-3": 2
+                },
+                "name": "electric-furnace",
+                "position": {
+                    "x": 0,
+                    "y": 1
+                }
+            },
+            {
+                "entity_number": 76,
+                "name": "small-lamp",
+                "position": {
+                    "x": 2,
+                    "y": -1
+                }
+            },
+            {
+                "entity_number": 77,
+                "items": {
+                    "speed-module-3": 2
+                },
+                "name": "beacon",
+                "position": {
+                    "x": 5,
+                    "y": 0
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 78,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 3,
+                    "y": -1
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 79,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 3,
+                    "y": 0
+                }
+            },
+            {
+                "entity_number": 80,
+                "items": {
+                    "speed-module-3": 2
+                },
+                "name": "beacon",
+                "position": {
+                    "x": -5,
+                    "y": 3
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 81,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": -3,
+                    "y": 1
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 82,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": -2,
+                    "y": 1
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 83,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": -3,
+                    "y": 2
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 84,
+                "name": "fast-inserter",
+                "position": {
+                    "x": -2,
+                    "y": 2
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 85,
+                "name": "fast-inserter",
+                "position": {
+                    "x": 2,
+                    "y": 2
+                }
+            },
+            {
+                "entity_number": 86,
+                "items": {
+                    "speed-module-3": 2
+                },
+                "name": "beacon",
+                "position": {
+                    "x": 5,
+                    "y": 3
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 87,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 3,
+                    "y": 1
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 88,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 3,
+                    "y": 2
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 89,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": -3,
+                    "y": 3
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 90,
+                "name": "fast-inserter",
+                "position": {
+                    "x": -2,
+                    "y": 3
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 91,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": -3,
+                    "y": 4
+                }
+            },
+            {
+                "entity_number": 92,
+                "name": "medium-electric-pole",
+                "position": {
+                    "x": -2,
+                    "y": 4
+                }
+            },
+            {
+                "entity_number": 93,
+                "items": {
+                    "productivity-module-3": 2
+                },
+                "name": "electric-furnace",
+                "position": {
+                    "x": 0,
+                    "y": 4
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 94,
+                "name": "fast-inserter",
+                "position": {
+                    "x": 2,
+                    "y": 3
+                }
+            },
+            {
+                "entity_number": 95,
+                "name": "medium-electric-pole",
+                "position": {
+                    "x": 2,
+                    "y": 4
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 96,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 3,
+                    "y": 3
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 97,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 3,
+                    "y": 4
+                }
+            },
+            {
+                "entity_number": 98,
+                "items": {
+                    "speed-module-3": 2
+                },
+                "name": "beacon",
+                "position": {
+                    "x": -5,
+                    "y": 6
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 99,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": -3,
+                    "y": 5
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 100,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": -3,
+                    "y": 6
+                }
+            },
+            {
+                "entity_number": 101,
+                "items": {
+                    "productivity-module-3": 2
+                },
+                "name": "electric-furnace",
+                "position": {
+                    "x": 0,
+                    "y": 7
+                }
+            },
+            {
+                "entity_number": 102,
+                "items": {
+                    "speed-module-3": 2
+                },
+                "name": "beacon",
+                "position": {
+                    "x": 5,
+                    "y": 6
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 103,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 3,
+                    "y": 5
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 104,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 3,
+                    "y": 6
+                }
+            },
+            {
+                "entity_number": 105,
+                "items": {
+                    "speed-module-3": 2
+                },
+                "name": "beacon",
+                "position": {
+                    "x": -5,
+                    "y": 9
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 106,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": -3,
+                    "y": 7
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 107,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": -3,
+                    "y": 8
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 108,
+                "name": "fast-inserter",
+                "position": {
+                    "x": -2,
+                    "y": 8
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 109,
+                "name": "fast-inserter",
+                "position": {
+                    "x": 2,
+                    "y": 8
+                }
+            },
+            {
+                "entity_number": 110,
+                "items": {
+                    "speed-module-3": 2
+                },
+                "name": "beacon",
+                "position": {
+                    "x": 5,
+                    "y": 9
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 111,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 3,
+                    "y": 7
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 112,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 3,
+                    "y": 8
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 113,
+                "name": "express-underground-belt",
+                "position": {
+                    "x": -3,
+                    "y": 9
+                },
+                "type": "input"
+            },
+            {
+                "direction": 2,
+                "entity_number": 114,
+                "name": "fast-inserter",
+                "position": {
+                    "x": -2,
+                    "y": 9
+                }
+            },
+            {
+                "entity_number": 115,
+                "name": "medium-electric-pole",
+                "position": {
+                    "x": -2,
+                    "y": 10
+                }
+            },
+            {
+                "entity_number": 116,
+                "items": {
+                    "productivity-module-3": 2
+                },
+                "name": "electric-furnace",
+                "position": {
+                    "x": 0,
+                    "y": 10
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 117,
+                "name": "fast-inserter",
+                "position": {
+                    "x": 2,
+                    "y": 9
+                }
+            },
+            {
+                "entity_number": 118,
+                "name": "medium-electric-pole",
+                "position": {
+                    "x": 2,
+                    "y": 10
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 119,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 3,
+                    "y": 9
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 120,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 3,
+                    "y": 10
+                }
+            },
+            {
+                "entity_number": 121,
+                "items": {
+                    "speed-module-3": 2
+                },
+                "name": "beacon",
+                "position": {
+                    "x": -5,
+                    "y": 12
+                }
+            },
+            {
+                "entity_number": 122,
+                "items": {
+                    "productivity-module-3": 2
+                },
+                "name": "electric-furnace",
+                "position": {
+                    "x": 0,
+                    "y": 13
+                }
+            },
+            {
+                "entity_number": 123,
+                "items": {
+                    "speed-module-3": 2
+                },
+                "name": "beacon",
+                "position": {
+                    "x": 5,
+                    "y": 12
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 124,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 3,
+                    "y": 11
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 125,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 3,
+                    "y": 12
+                }
+            },
+            {
+                "entity_number": 126,
+                "items": {
+                    "speed-module-3": 2
+                },
+                "name": "beacon",
+                "position": {
+                    "x": -5,
+                    "y": 15
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 127,
+                "name": "express-underground-belt",
+                "position": {
+                    "x": -3,
+                    "y": 14
+                },
+                "type": "output"
+            },
+            {
+                "direction": 2,
+                "entity_number": 128,
+                "name": "fast-inserter",
+                "position": {
+                    "x": -2,
+                    "y": 14
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 129,
+                "name": "fast-inserter",
+                "position": {
+                    "x": 2,
+                    "y": 14
+                }
+            },
+            {
+                "entity_number": 130,
+                "name": "small-lamp",
+                "position": {
+                    "x": 2,
+                    "y": 13
+                }
+            },
+            {
+                "entity_number": 131,
+                "items": {
+                    "speed-module-3": 2
+                },
+                "name": "beacon",
+                "position": {
+                    "x": 5,
+                    "y": 15
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 132,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 3,
+                    "y": 14
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 133,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 3,
+                    "y": 13
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 134,
+                "name": "fast-inserter",
+                "position": {
+                    "x": -2,
+                    "y": 15
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 135,
+                "name": "express-underground-belt",
+                "position": {
+                    "x": -3,
+                    "y": 15
+                },
+                "type": "input"
+            },
+            {
+                "entity_number": 136,
+                "name": "medium-electric-pole",
+                "position": {
+                    "x": -2,
+                    "y": 16
+                }
+            },
+            {
+                "entity_number": 137,
+                "items": {
+                    "productivity-module-3": 2
+                },
+                "name": "electric-furnace",
+                "position": {
+                    "x": 0,
+                    "y": 16
+                }
+            },
+            {
+                "entity_number": 138,
+                "name": "medium-electric-pole",
+                "position": {
+                    "x": 2,
+                    "y": 16
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 139,
+                "name": "fast-inserter",
+                "position": {
+                    "x": 2,
+                    "y": 15
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 140,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 3,
+                    "y": 15
+                }
+            },
+            {
+                "entity_number": 141,
+                "items": {
+                    "speed-module-3": 2
+                },
+                "name": "beacon",
+                "position": {
+                    "x": -5,
+                    "y": 18
+                }
+            },
+            {
+                "entity_number": 142,
+                "items": {
+                    "speed-module-3": 2
+                },
+                "name": "beacon",
+                "position": {
+                    "x": 5,
+                    "y": 18
+                }
+            },
+            {
+                "entity_number": 143,
+                "items": {
+                    "speed-module-3": 2
+                },
+                "name": "beacon",
+                "position": {
+                    "x": -5,
+                    "y": 21
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 144,
+                "name": "express-underground-belt",
+                "position": {
+                    "x": -3,
+                    "y": 20
+                },
+                "type": "output"
+            },
+            {
+                "entity_number": 145,
+                "items": {
+                    "speed-module-3": 2
+                },
+                "name": "beacon",
+                "position": {
+                    "x": 5,
+                    "y": 21
+                }
+            },
+            {
+                "entity_number": 146,
+                "name": "medium-electric-pole",
+                "position": {
+                    "x": -2,
+                    "y": 22
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 147,
+                "name": "express-underground-belt",
+                "position": {
+                    "x": -3,
+                    "y": 21
+                },
+                "type": "input"
+            },
+            {
+                "entity_number": 148,
+                "name": "medium-electric-pole",
+                "position": {
+                    "x": 2,
+                    "y": 22
+                }
+            }
+        ],
+        "icons": [
+            {
+                "index": 1,
+                "signal": {
+                    "name": "electric-furnace",
+                    "type": "item"
+                }
+            },
+            {
+                "index": 2,
+                "signal": {
+                    "name": "productivity-module-3",
+                    "type": "item"
+                }
+            },
+            {
+                "index": 3,
+                "signal": {
+                    "name": "beacon",
+                    "type": "item"
+                }
+            },
+            {
+                "index": 4,
+                "signal": {
+                    "name": "express-transport-belt",
+                    "type": "item"
+                }
+            }
+        ],
+        "item": "blueprint",
+        "label": "Furnaces  - Beaconed (Late Game)",
+        "version": 64426999808
+    }
+}

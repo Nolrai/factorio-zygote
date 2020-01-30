@@ -1,0 +1,1116 @@
+{
+    "blueprint": {
+        "entities": [
+            {
+                "direction": 4,
+                "entity_number": 1,
+                "name": "rail-signal",
+                "position": {
+                    "x": -4.5,
+                    "y": -23.5
+                }
+            },
+            {
+                "entity_number": 2,
+                "name": "straight-rail",
+                "position": {
+                    "x": -6,
+                    "y": -22
+                }
+            },
+            {
+                "entity_number": 3,
+                "name": "train-stop",
+                "position": {
+                    "x": -4,
+                    "y": -22
+                }
+            },
+            {
+                "entity_number": 4,
+                "name": "straight-rail",
+                "position": {
+                    "x": -6,
+                    "y": -20
+                }
+            },
+            {
+                "entity_number": 5,
+                "name": "straight-rail",
+                "position": {
+                    "x": -6,
+                    "y": -18
+                }
+            },
+            {
+                "entity_number": 6,
+                "name": "big-electric-pole",
+                "position": {
+                    "x": -4,
+                    "y": -18
+                }
+            },
+            {
+                "entity_number": 7,
+                "name": "medium-electric-pole",
+                "position": {
+                    "x": -8.5,
+                    "y": -15.5
+                }
+            },
+            {
+                "entity_number": 8,
+                "name": "straight-rail",
+                "position": {
+                    "x": -6,
+                    "y": -16
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "red": [
+                            {
+                                "entity_id": 16
+                            }
+                        ]
+                    },
+                    "2": {
+                        "red": [
+                            {
+                                "entity_id": 10
+                            }
+                        ]
+                    }
+                },
+                "control_behavior": {
+                    "arithmetic_conditions": {
+                        "constant": -1,
+                        "first_signal": {
+                            "name": "signal-each",
+                            "type": "virtual"
+                        },
+                        "operation": "*",
+                        "output_signal": {
+                            "name": "signal-each",
+                            "type": "virtual"
+                        }
+                    }
+                },
+                "entity_number": 9,
+                "name": "arithmetic-combinator",
+                "position": {
+                    "x": -3.5,
+                    "y": -16
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "red": [
+                            {
+                                "circuit_id": 2,
+                                "entity_id": 9
+                            },
+                            {
+                                "entity_id": 18
+                            }
+                        ]
+                    }
+                },
+                "control_behavior": {
+                    "filters": [
+                        {
+                            "count": 1000,
+                            "index": 1,
+                            "signal": {
+                                "name": "solar-panel",
+                                "type": "item"
+                            }
+                        },
+                        {
+                            "count": 1000,
+                            "index": 2,
+                            "signal": {
+                                "name": "accumulator",
+                                "type": "item"
+                            }
+                        },
+                        {
+                            "count": 100,
+                            "index": 3,
+                            "signal": {
+                                "name": "substation",
+                                "type": "item"
+                            }
+                        },
+                        {
+                            "count": 20,
+                            "index": 4,
+                            "signal": {
+                                "name": "roboport",
+                                "type": "item"
+                            }
+                        },
+                        {
+                            "count": 50,
+                            "index": 5,
+                            "signal": {
+                                "name": "small-lamp",
+                                "type": "item"
+                            }
+                        },
+                        {
+                            "count": 50,
+                            "index": 6,
+                            "signal": {
+                                "name": "radar",
+                                "type": "item"
+                            }
+                        }
+                    ]
+                },
+                "direction": 6,
+                "entity_number": 10,
+                "name": "constant-combinator",
+                "position": {
+                    "x": -4.5,
+                    "y": -15.5
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 11,
+                "name": "stack-inserter",
+                "position": {
+                    "x": -7.5,
+                    "y": -13.5
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 12,
+                "name": "stack-inserter",
+                "position": {
+                    "x": -7.5,
+                    "y": -14.5
+                }
+            },
+            {
+                "entity_number": 13,
+                "name": "logistic-chest-requester",
+                "position": {
+                    "x": -8.5,
+                    "y": -13.5
+                },
+                "request_filters": [
+                    {
+                        "count": 2000,
+                        "index": 1,
+                        "name": "stone"
+                    }
+                ]
+            },
+            {
+                "entity_number": 14,
+                "name": "logistic-chest-requester",
+                "position": {
+                    "x": -8.5,
+                    "y": -14.5
+                },
+                "request_filters": [
+                    {
+                        "count": 2000,
+                        "index": 1,
+                        "name": "raw-wood"
+                    }
+                ]
+            },
+            {
+                "entity_number": 15,
+                "name": "straight-rail",
+                "position": {
+                    "x": -6,
+                    "y": -14
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "red": [
+                            {
+                                "circuit_id": 1,
+                                "entity_id": 9
+                            },
+                            {
+                                "entity_id": 17
+                            }
+                        ]
+                    }
+                },
+                "entity_number": 16,
+                "name": "logistic-chest-passive-provider",
+                "position": {
+                    "x": -3.5,
+                    "y": -14.5
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "red": [
+                            {
+                                "entity_id": 16
+                            },
+                            {
+                                "entity_id": 25
+                            }
+                        ]
+                    }
+                },
+                "entity_number": 17,
+                "name": "logistic-chest-passive-provider",
+                "position": {
+                    "x": -3.5,
+                    "y": -13.5
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "red": [
+                            {
+                                "entity_id": 10
+                            },
+                            {
+                                "entity_id": 19
+                            }
+                        ]
+                    }
+                },
+                "control_behavior": {
+                    "circuit_mode_of_operation": 1,
+                    "stack_control_input_signal": {
+                        "name": "signal-S",
+                        "type": "virtual"
+                    }
+                },
+                "direction": 6,
+                "entity_number": 18,
+                "filters": [
+                    {
+                        "index": 1,
+                        "name": "solar-panel"
+                    },
+                    {
+                        "index": 2,
+                        "name": "accumulator"
+                    }
+                ],
+                "name": "filter-inserter",
+                "position": {
+                    "x": -4.5,
+                    "y": -14.5
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "red": [
+                            {
+                                "entity_id": 18
+                            },
+                            {
+                                "entity_id": 24
+                            }
+                        ]
+                    }
+                },
+                "control_behavior": {
+                    "circuit_mode_of_operation": 1,
+                    "stack_control_input_signal": {
+                        "name": "signal-S",
+                        "type": "virtual"
+                    }
+                },
+                "direction": 6,
+                "entity_number": 19,
+                "filters": [
+                    {
+                        "index": 1,
+                        "name": "solar-panel"
+                    },
+                    {
+                        "index": 2,
+                        "name": "accumulator"
+                    }
+                ],
+                "name": "filter-inserter",
+                "position": {
+                    "x": -4.5,
+                    "y": -13.5
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "red": [
+                            {
+                                "entity_id": 21
+                            },
+                            {
+                                "entity_id": 28
+                            }
+                        ]
+                    }
+                },
+                "control_behavior": {
+                    "circuit_mode_of_operation": 1
+                },
+                "entity_number": 20,
+                "name": "roboport",
+                "position": {
+                    "x": -10,
+                    "y": -11
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "red": [
+                            {
+                                "entity_id": 20
+                            }
+                        ]
+                    }
+                },
+                "control_behavior": {
+                    "circuit_condition": {
+                        "comparator": "<",
+                        "constant": 2000,
+                        "first_signal": {
+                            "name": "signal-T",
+                            "type": "virtual"
+                        }
+                    }
+                },
+                "direction": 2,
+                "entity_number": 21,
+                "filters": [
+                    {
+                        "index": 1,
+                        "name": "construction-robot"
+                    }
+                ],
+                "name": "filter-inserter",
+                "position": {
+                    "x": -7.5,
+                    "y": -11.5
+                }
+            },
+            {
+                "entity_number": 22,
+                "name": "straight-rail",
+                "position": {
+                    "x": -6,
+                    "y": -12
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "red": [
+                            {
+                                "entity_id": 24
+                            },
+                            {
+                                "entity_id": 31
+                            }
+                        ]
+                    }
+                },
+                "control_behavior": {
+                    "circuit_mode_of_operation": 1,
+                    "stack_control_input_signal": {
+                        "name": "signal-S",
+                        "type": "virtual"
+                    }
+                },
+                "direction": 6,
+                "entity_number": 23,
+                "filters": [
+                    {
+                        "index": 1,
+                        "name": "solar-panel"
+                    },
+                    {
+                        "index": 2,
+                        "name": "accumulator"
+                    }
+                ],
+                "name": "filter-inserter",
+                "position": {
+                    "x": -4.5,
+                    "y": -11.5
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "red": [
+                            {
+                                "entity_id": 19
+                            },
+                            {
+                                "entity_id": 23
+                            }
+                        ]
+                    }
+                },
+                "control_behavior": {
+                    "circuit_mode_of_operation": 1,
+                    "stack_control_input_signal": {
+                        "name": "signal-S",
+                        "type": "virtual"
+                    }
+                },
+                "direction": 6,
+                "entity_number": 24,
+                "filters": [
+                    {
+                        "index": 1,
+                        "name": "solar-panel"
+                    },
+                    {
+                        "index": 2,
+                        "name": "accumulator"
+                    }
+                ],
+                "name": "filter-inserter",
+                "position": {
+                    "x": -4.5,
+                    "y": -12.5
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "red": [
+                            {
+                                "entity_id": 17
+                            },
+                            {
+                                "entity_id": 26
+                            }
+                        ]
+                    }
+                },
+                "entity_number": 25,
+                "name": "logistic-chest-passive-provider",
+                "position": {
+                    "x": -3.5,
+                    "y": -12.5
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "red": [
+                            {
+                                "entity_id": 25
+                            },
+                            {
+                                "entity_id": 33
+                            }
+                        ]
+                    }
+                },
+                "entity_number": 26,
+                "name": "logistic-chest-passive-provider",
+                "position": {
+                    "x": -3.5,
+                    "y": -11.5
+                }
+            },
+            {
+                "entity_number": 27,
+                "name": "medium-electric-pole",
+                "position": {
+                    "x": -2.5,
+                    "y": -12.5
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "red": [
+                            {
+                                "entity_id": 20
+                            }
+                        ]
+                    }
+                },
+                "control_behavior": {
+                    "circuit_condition": {
+                        "comparator": "<",
+                        "constant": 50,
+                        "first_signal": {
+                            "name": "signal-Y",
+                            "type": "virtual"
+                        }
+                    }
+                },
+                "direction": 2,
+                "entity_number": 28,
+                "filters": [
+                    {
+                        "index": 1,
+                        "name": "logistic-robot"
+                    }
+                ],
+                "name": "filter-inserter",
+                "position": {
+                    "x": -7.5,
+                    "y": -10.5
+                }
+            },
+            {
+                "entity_number": 29,
+                "name": "straight-rail",
+                "position": {
+                    "x": -6,
+                    "y": -10
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "red": [
+                            {
+                                "entity_id": 31
+                            }
+                        ]
+                    }
+                },
+                "control_behavior": {
+                    "circuit_mode_of_operation": 1,
+                    "stack_control_input_signal": {
+                        "name": "signal-S",
+                        "type": "virtual"
+                    }
+                },
+                "direction": 6,
+                "entity_number": 30,
+                "filters": [
+                    {
+                        "index": 1,
+                        "name": "solar-panel"
+                    },
+                    {
+                        "index": 2,
+                        "name": "accumulator"
+                    }
+                ],
+                "name": "filter-inserter",
+                "position": {
+                    "x": -4.5,
+                    "y": -9.5
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "red": [
+                            {
+                                "entity_id": 23
+                            },
+                            {
+                                "entity_id": 30
+                            }
+                        ]
+                    }
+                },
+                "control_behavior": {
+                    "circuit_mode_of_operation": 1,
+                    "stack_control_input_signal": {
+                        "name": "signal-S",
+                        "type": "virtual"
+                    }
+                },
+                "direction": 6,
+                "entity_number": 31,
+                "filters": [
+                    {
+                        "index": 1,
+                        "name": "solar-panel"
+                    },
+                    {
+                        "index": 2,
+                        "name": "accumulator"
+                    }
+                ],
+                "name": "filter-inserter",
+                "position": {
+                    "x": -4.5,
+                    "y": -10.5
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "red": [
+                            {
+                                "entity_id": 33
+                            }
+                        ]
+                    }
+                },
+                "entity_number": 32,
+                "name": "logistic-chest-passive-provider",
+                "position": {
+                    "x": -3.5,
+                    "y": -9.5
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "red": [
+                            {
+                                "entity_id": 26
+                            },
+                            {
+                                "entity_id": 32
+                            }
+                        ]
+                    }
+                },
+                "entity_number": 33,
+                "name": "logistic-chest-passive-provider",
+                "position": {
+                    "x": -3.5,
+                    "y": -10.5
+                }
+            },
+            {
+                "entity_number": 34,
+                "name": "medium-electric-pole",
+                "position": {
+                    "x": -9.5,
+                    "y": -8.5
+                }
+            },
+            {
+                "entity_number": 35,
+                "name": "straight-rail",
+                "position": {
+                    "x": -6,
+                    "y": -8
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 36,
+                "name": "rail-signal",
+                "position": {
+                    "x": -4.5,
+                    "y": -8.5
+                }
+            },
+            {
+                "entity_number": 37,
+                "name": "straight-rail",
+                "position": {
+                    "x": -6,
+                    "y": -6
+                }
+            },
+            {
+                "entity_number": 38,
+                "name": "straight-rail",
+                "position": {
+                    "x": -6,
+                    "y": -4
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 39,
+                "name": "curved-rail",
+                "position": {
+                    "x": -5,
+                    "y": 1
+                }
+            },
+            {
+                "entity_number": 40,
+                "name": "straight-rail",
+                "position": {
+                    "x": 4,
+                    "y": 2
+                }
+            },
+            {
+                "entity_number": 41,
+                "name": "straight-rail",
+                "position": {
+                    "x": 10,
+                    "y": 2
+                }
+            },
+            {
+                "direction": 5,
+                "entity_number": 42,
+                "name": "straight-rail",
+                "position": {
+                    "x": -2,
+                    "y": 4
+                }
+            },
+            {
+                "direction": 1,
+                "entity_number": 43,
+                "name": "straight-rail",
+                "position": {
+                    "x": -2,
+                    "y": 6
+                }
+            },
+            {
+                "entity_number": 44,
+                "name": "straight-rail",
+                "position": {
+                    "x": 4,
+                    "y": 4
+                }
+            },
+            {
+                "entity_number": 45,
+                "name": "straight-rail",
+                "position": {
+                    "x": 10,
+                    "y": 4
+                }
+            },
+            {
+                "direction": 5,
+                "entity_number": 46,
+                "name": "straight-rail",
+                "position": {
+                    "x": 0,
+                    "y": 6
+                }
+            },
+            {
+                "direction": 3,
+                "entity_number": 47,
+                "name": "rail-signal",
+                "position": {
+                    "x": 0.5,
+                    "y": 5.5
+                }
+            },
+            {
+                "direction": 1,
+                "entity_number": 48,
+                "name": "straight-rail",
+                "position": {
+                    "x": 0,
+                    "y": 8
+                }
+            },
+            {
+                "entity_number": 49,
+                "name": "straight-rail",
+                "position": {
+                    "x": 4,
+                    "y": 6
+                }
+            },
+            {
+                "entity_number": 50,
+                "name": "straight-rail",
+                "position": {
+                    "x": 10,
+                    "y": 6
+                }
+            },
+            {
+                "direction": 7,
+                "entity_number": 51,
+                "name": "rail-signal",
+                "position": {
+                    "x": -1.5,
+                    "y": 7.5
+                }
+            },
+            {
+                "direction": 5,
+                "entity_number": 52,
+                "name": "straight-rail",
+                "position": {
+                    "x": 2,
+                    "y": 8
+                }
+            },
+            {
+                "entity_number": 53,
+                "name": "curved-rail",
+                "position": {
+                    "x": 3,
+                    "y": 11
+                }
+            },
+            {
+                "entity_number": 54,
+                "name": "rail-chain-signal",
+                "position": {
+                    "x": 2.5,
+                    "y": 7.5
+                }
+            },
+            {
+                "direction": 1,
+                "entity_number": 55,
+                "name": "straight-rail",
+                "position": {
+                    "x": 2,
+                    "y": 10
+                }
+            },
+            {
+                "entity_number": 56,
+                "name": "straight-rail",
+                "position": {
+                    "x": 4,
+                    "y": 8
+                }
+            },
+            {
+                "entity_number": 57,
+                "name": "straight-rail",
+                "position": {
+                    "x": 10,
+                    "y": 8
+                }
+            },
+            {
+                "direction": 5,
+                "entity_number": 58,
+                "name": "straight-rail",
+                "position": {
+                    "x": 4,
+                    "y": 10
+                }
+            },
+            {
+                "entity_number": 59,
+                "name": "straight-rail",
+                "position": {
+                    "x": 4,
+                    "y": 10
+                }
+            },
+            {
+                "direction": 1,
+                "entity_number": 60,
+                "name": "straight-rail",
+                "position": {
+                    "x": 4,
+                    "y": 12
+                }
+            },
+            {
+                "entity_number": 61,
+                "name": "straight-rail",
+                "position": {
+                    "x": 10,
+                    "y": 10
+                }
+            },
+            {
+                "entity_number": 62,
+                "name": "straight-rail",
+                "position": {
+                    "x": 4,
+                    "y": 12
+                }
+            },
+            {
+                "direction": 5,
+                "entity_number": 63,
+                "name": "straight-rail",
+                "position": {
+                    "x": 6,
+                    "y": 12
+                }
+            },
+            {
+                "direction": 1,
+                "entity_number": 64,
+                "name": "straight-rail",
+                "position": {
+                    "x": 6,
+                    "y": 14
+                }
+            },
+            {
+                "direction": 3,
+                "entity_number": 65,
+                "name": "rail-chain-signal",
+                "position": {
+                    "x": 6.5,
+                    "y": 11.5
+                }
+            },
+            {
+                "entity_number": 66,
+                "name": "straight-rail",
+                "position": {
+                    "x": 10,
+                    "y": 12
+                }
+            },
+            {
+                "entity_number": 67,
+                "name": "straight-rail",
+                "position": {
+                    "x": 4,
+                    "y": 14
+                }
+            },
+            {
+                "entity_number": 68,
+                "name": "curved-rail",
+                "position": {
+                    "x": 9,
+                    "y": 17
+                }
+            },
+            {
+                "entity_number": 69,
+                "name": "straight-rail",
+                "position": {
+                    "x": 10,
+                    "y": 14
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 70,
+                "name": "rail-signal",
+                "position": {
+                    "x": 11.5,
+                    "y": 13.5
+                }
+            },
+            {
+                "entity_number": 71,
+                "name": "rail-signal",
+                "position": {
+                    "x": 2.5,
+                    "y": 16.5
+                }
+            },
+            {
+                "entity_number": 72,
+                "name": "straight-rail",
+                "position": {
+                    "x": 4,
+                    "y": 16
+                }
+            },
+            {
+                "entity_number": 73,
+                "name": "straight-rail",
+                "position": {
+                    "x": 10,
+                    "y": 16
+                }
+            },
+            {
+                "entity_number": 74,
+                "name": "straight-rail",
+                "position": {
+                    "x": 4,
+                    "y": 18
+                }
+            },
+            {
+                "entity_number": 75,
+                "name": "straight-rail",
+                "position": {
+                    "x": 10,
+                    "y": 18
+                }
+            },
+            {
+                "entity_number": 76,
+                "name": "straight-rail",
+                "position": {
+                    "x": 4,
+                    "y": 20
+                }
+            },
+            {
+                "entity_number": 77,
+                "name": "straight-rail",
+                "position": {
+                    "x": 10,
+                    "y": 20
+                }
+            },
+            {
+                "entity_number": 78,
+                "name": "straight-rail",
+                "position": {
+                    "x": 4,
+                    "y": 22
+                }
+            },
+            {
+                "entity_number": 79,
+                "name": "straight-rail",
+                "position": {
+                    "x": 10,
+                    "y": 22
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 80,
+                "name": "rail-signal",
+                "position": {
+                    "x": 11.5,
+                    "y": 21.5
+                }
+            }
+        ],
+        "icons": [
+            {
+                "index": 1,
+                "signal": {
+                    "name": "train-stop",
+                    "type": "item"
+                }
+            },
+            {
+                "index": 2,
+                "signal": {
+                    "name": "solar-panel",
+                    "type": "item"
+                }
+            },
+            {
+                "index": 3,
+                "signal": {
+                    "name": "signal-U",
+                    "type": "virtual"
+                }
+            }
+        ],
+        "item": "blueprint",
+        "label": "Station - Solar Unloading",
+        "version": 64426803202
+    }
+}

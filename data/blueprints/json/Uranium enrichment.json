@@ -1,0 +1,6178 @@
+{
+    "blueprint": {
+        "entities": [
+            {
+                "direction": 6,
+                "entity_number": 1,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": -8,
+                    "y": -12
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 2,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": -9,
+                    "y": -12
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 3,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": -6,
+                    "y": -12
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 4,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": -7,
+                    "y": -12
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 5,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": -5,
+                    "y": -12
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 6,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": -4,
+                    "y": -12
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 7,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": -3,
+                    "y": -12
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 8,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": -2,
+                    "y": -12
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 9,
+                "name": "express-underground-belt",
+                "position": {
+                    "x": -1,
+                    "y": -12
+                },
+                "type": "output"
+            },
+            {
+                "entity_number": 10,
+                "name": "roboport",
+                "position": {
+                    "x": 1.5,
+                    "y": -13.5
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 11,
+                "name": "express-underground-belt",
+                "position": {
+                    "x": 4,
+                    "y": -12
+                },
+                "type": "input"
+            },
+            {
+                "direction": 6,
+                "entity_number": 12,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 5,
+                    "y": -12
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 13,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 6,
+                    "y": -12
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 14,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 7,
+                    "y": -12
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 15,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 8,
+                    "y": -12
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 16,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 9,
+                    "y": -12
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 17,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 10,
+                    "y": -12
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 18,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 11,
+                    "y": -12
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 19,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 12,
+                    "y": -12
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 20,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": 13,
+                    "y": -12
+                }
+            },
+            {
+                "entity_number": 21,
+                "items": [
+                    {
+                        "count": 2,
+                        "item": "speed-module-2"
+                    }
+                ],
+                "name": "centrifuge",
+                "position": {
+                    "x": -9,
+                    "y": -9
+                },
+                "recipe": "uranium-processing"
+            },
+            {
+                "entity_number": 22,
+                "name": "fast-inserter",
+                "position": {
+                    "x": -9,
+                    "y": -11
+                }
+            },
+            {
+                "entity_number": 23,
+                "items": [
+                    {
+                        "count": 2,
+                        "item": "speed-module-2"
+                    }
+                ],
+                "name": "centrifuge",
+                "position": {
+                    "x": -5,
+                    "y": -9
+                },
+                "recipe": "uranium-processing"
+            },
+            {
+                "entity_number": 24,
+                "name": "fast-inserter",
+                "position": {
+                    "x": -5,
+                    "y": -11
+                }
+            },
+            {
+                "entity_number": 25,
+                "name": "fast-inserter",
+                "position": {
+                    "x": -2,
+                    "y": -11
+                }
+            },
+            {
+                "entity_number": 26,
+                "items": [
+                    {
+                        "count": 2,
+                        "item": "speed-module-2"
+                    }
+                ],
+                "name": "centrifuge",
+                "position": {
+                    "x": -1,
+                    "y": -9
+                },
+                "recipe": "uranium-processing"
+            },
+            {
+                "entity_number": 27,
+                "items": [
+                    {
+                        "count": 2,
+                        "item": "speed-module-2"
+                    }
+                ],
+                "name": "centrifuge",
+                "position": {
+                    "x": 4,
+                    "y": -9
+                },
+                "recipe": "uranium-processing"
+            },
+            {
+                "entity_number": 28,
+                "name": "fast-inserter",
+                "position": {
+                    "x": 5,
+                    "y": -11
+                }
+            },
+            {
+                "entity_number": 29,
+                "name": "fast-inserter",
+                "position": {
+                    "x": 8,
+                    "y": -11
+                }
+            },
+            {
+                "entity_number": 30,
+                "items": [
+                    {
+                        "count": 1,
+                        "item": "speed-module-2"
+                    },
+                    {
+                        "count": 1,
+                        "item": "speed-module-3"
+                    }
+                ],
+                "name": "centrifuge",
+                "position": {
+                    "x": 8,
+                    "y": -9
+                },
+                "recipe": "uranium-processing"
+            },
+            {
+                "entity_number": 31,
+                "name": "fast-inserter",
+                "position": {
+                    "x": 12,
+                    "y": -11
+                }
+            },
+            {
+                "entity_number": 32,
+                "items": [
+                    {
+                        "count": 2,
+                        "item": "speed-module-2"
+                    }
+                ],
+                "name": "centrifuge",
+                "position": {
+                    "x": 12,
+                    "y": -9
+                },
+                "recipe": "uranium-processing"
+            },
+            {
+                "direction": 2,
+                "entity_number": 33,
+                "name": "transport-belt",
+                "position": {
+                    "x": -8,
+                    "y": -6
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 34,
+                "name": "transport-belt",
+                "position": {
+                    "x": -9,
+                    "y": -6
+                }
+            },
+            {
+                "entity_number": 35,
+                "name": "inserter",
+                "position": {
+                    "x": -9,
+                    "y": -7
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 36,
+                "name": "transport-belt",
+                "position": {
+                    "x": -7,
+                    "y": -6
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 37,
+                "name": "transport-belt",
+                "position": {
+                    "x": -6,
+                    "y": -6
+                }
+            },
+            {
+                "entity_number": 38,
+                "name": "inserter",
+                "position": {
+                    "x": -5,
+                    "y": -7
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 39,
+                "name": "transport-belt",
+                "position": {
+                    "x": -4,
+                    "y": -6
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 40,
+                "name": "transport-belt",
+                "position": {
+                    "x": -5,
+                    "y": -6
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 41,
+                "name": "transport-belt",
+                "position": {
+                    "x": -2,
+                    "y": -6
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 42,
+                "name": "transport-belt",
+                "position": {
+                    "x": -3,
+                    "y": -6
+                }
+            },
+            {
+                "entity_number": 43,
+                "name": "inserter",
+                "position": {
+                    "x": -1,
+                    "y": -7
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 44,
+                "name": "transport-belt",
+                "position": {
+                    "x": -1,
+                    "y": -6
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 45,
+                "name": "transport-belt",
+                "position": {
+                    "x": 0,
+                    "y": -6
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 46,
+                "name": "transport-belt",
+                "position": {
+                    "x": 1,
+                    "y": -6
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 47,
+                "name": "transport-belt",
+                "position": {
+                    "x": 2,
+                    "y": -6
+                }
+            },
+            {
+                "entity_number": 48,
+                "name": "inserter",
+                "position": {
+                    "x": 4,
+                    "y": -7
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 49,
+                "name": "transport-belt",
+                "position": {
+                    "x": 3,
+                    "y": -6
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 50,
+                "name": "transport-belt",
+                "position": {
+                    "x": 4,
+                    "y": -6
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 51,
+                "name": "transport-belt",
+                "position": {
+                    "x": 6,
+                    "y": -6
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 52,
+                "name": "transport-belt",
+                "position": {
+                    "x": 5,
+                    "y": -6
+                }
+            },
+            {
+                "entity_number": 53,
+                "name": "inserter",
+                "position": {
+                    "x": 8,
+                    "y": -7
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 54,
+                "name": "transport-belt",
+                "position": {
+                    "x": 7,
+                    "y": -6
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 55,
+                "name": "transport-belt",
+                "position": {
+                    "x": 8,
+                    "y": -6
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 56,
+                "name": "transport-belt",
+                "position": {
+                    "x": 9,
+                    "y": -6
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 57,
+                "name": "transport-belt",
+                "position": {
+                    "x": 10,
+                    "y": -6
+                }
+            },
+            {
+                "entity_number": 58,
+                "name": "inserter",
+                "position": {
+                    "x": 12,
+                    "y": -7
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 59,
+                "name": "transport-belt",
+                "position": {
+                    "x": 11,
+                    "y": -6
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 60,
+                "name": "transport-belt",
+                "position": {
+                    "x": 12,
+                    "y": -6
+                }
+            },
+            {
+                "entity_number": 61,
+                "name": "substation",
+                "position": {
+                    "x": -12.5,
+                    "y": -3.5
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 62,
+                "name": "transport-belt",
+                "position": {
+                    "x": -9,
+                    "y": -4
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 63,
+                "name": "transport-belt",
+                "position": {
+                    "x": -9,
+                    "y": -5
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 64,
+                "name": "transport-belt",
+                "position": {
+                    "x": -8,
+                    "y": -5
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 65,
+                "name": "underground-belt",
+                "position": {
+                    "x": -7,
+                    "y": -5
+                },
+                "type": "output"
+            },
+            {
+                "entity_number": 66,
+                "items": [
+                    {
+                        "count": 2,
+                        "item": "speed-module-3"
+                    }
+                ],
+                "name": "beacon",
+                "position": {
+                    "x": -5,
+                    "y": -4
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 67,
+                "name": "underground-belt",
+                "position": {
+                    "x": -3,
+                    "y": -5
+                },
+                "type": "input"
+            },
+            {
+                "direction": 6,
+                "entity_number": 68,
+                "name": "transport-belt",
+                "position": {
+                    "x": -2,
+                    "y": -5
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 69,
+                "name": "transport-belt",
+                "position": {
+                    "x": -2,
+                    "y": -4
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 70,
+                "filters": [
+                    {
+                        "index": 1,
+                        "name": "uranium-238"
+                    }
+                ],
+                "name": "filter-inserter",
+                "position": {
+                    "x": -1,
+                    "y": -5
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 71,
+                "filters": [
+                    {
+                        "index": 1,
+                        "name": "uranium-235"
+                    }
+                ],
+                "name": "filter-inserter",
+                "position": {
+                    "x": -1,
+                    "y": -4
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 72,
+                "name": "transport-belt",
+                "position": {
+                    "x": 0,
+                    "y": -4
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 73,
+                "name": "transport-belt",
+                "position": {
+                    "x": 0,
+                    "y": -5
+                }
+            },
+            {
+                "entity_number": 74,
+                "name": "steel-chest",
+                "position": {
+                    "x": 2,
+                    "y": -4
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 75,
+                "filters": [
+                    {
+                        "index": 1,
+                        "name": "uranium-238"
+                    }
+                ],
+                "name": "filter-inserter",
+                "position": {
+                    "x": 1,
+                    "y": -4
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 76,
+                "name": "fast-inserter",
+                "position": {
+                    "x": 3,
+                    "y": -4
+                }
+            },
+            {
+                "entity_number": 77,
+                "name": "steel-chest",
+                "position": {
+                    "x": 4,
+                    "y": -4
+                }
+            },
+            {
+                "entity_number": 78,
+                "name": "substation",
+                "position": {
+                    "x": 5.5,
+                    "y": -3.5
+                }
+            },
+            {
+                "entity_number": 79,
+                "items": [
+                    {
+                        "count": 2,
+                        "item": "speed-module-3"
+                    }
+                ],
+                "name": "beacon",
+                "position": {
+                    "x": 8,
+                    "y": -4
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 80,
+                "name": "transport-belt",
+                "position": {
+                    "x": -9,
+                    "y": -3
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 81,
+                "name": "transport-belt",
+                "position": {
+                    "x": -9,
+                    "y": -2
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 82,
+                "name": "transport-belt",
+                "position": {
+                    "x": -8,
+                    "y": -2
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 83,
+                "name": "transport-belt",
+                "position": {
+                    "x": -7,
+                    "y": -2
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 84,
+                "name": "transport-belt",
+                "position": {
+                    "x": -6,
+                    "y": -2
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 85,
+                "name": "transport-belt",
+                "position": {
+                    "x": -5,
+                    "y": -2
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 86,
+                "name": "transport-belt",
+                "position": {
+                    "x": -4,
+                    "y": -2
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 87,
+                "name": "transport-belt",
+                "position": {
+                    "x": -2,
+                    "y": -2
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 88,
+                "name": "transport-belt",
+                "position": {
+                    "x": -3,
+                    "y": -2
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 89,
+                "name": "transport-belt",
+                "position": {
+                    "x": -2,
+                    "y": -3
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 90,
+                "name": "transport-belt",
+                "position": {
+                    "x": -1,
+                    "y": -2
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 91,
+                "name": "transport-belt",
+                "position": {
+                    "x": 0,
+                    "y": -2
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 92,
+                "name": "transport-belt",
+                "position": {
+                    "x": 1,
+                    "y": -2
+                }
+            },
+            {
+                "entity_number": 93,
+                "name": "inserter",
+                "position": {
+                    "x": 2,
+                    "y": -3
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 94,
+                "name": "transport-belt",
+                "position": {
+                    "x": 2,
+                    "y": -2
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 95,
+                "name": "transport-belt",
+                "position": {
+                    "x": 3,
+                    "y": -2
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 96,
+                "name": "transport-belt",
+                "position": {
+                    "x": 4,
+                    "y": -2
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 97,
+                "name": "transport-belt",
+                "position": {
+                    "x": 5,
+                    "y": -2
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 98,
+                "name": "transport-belt",
+                "position": {
+                    "x": 6,
+                    "y": -2
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 99,
+                "name": "transport-belt",
+                "position": {
+                    "x": 7,
+                    "y": -2
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 100,
+                "name": "transport-belt",
+                "position": {
+                    "x": 8,
+                    "y": -2
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 101,
+                "name": "transport-belt",
+                "position": {
+                    "x": 10,
+                    "y": -2
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 102,
+                "name": "transport-belt",
+                "position": {
+                    "x": 9,
+                    "y": -2
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 103,
+                "name": "transport-belt",
+                "position": {
+                    "x": 12,
+                    "y": -2
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 104,
+                "name": "transport-belt",
+                "position": {
+                    "x": 11,
+                    "y": -2
+                }
+            },
+            {
+                "entity_number": 105,
+                "name": "logistic-chest-requester",
+                "position": {
+                    "x": -14,
+                    "y": 0
+                }
+            },
+            {
+                "entity_number": 106,
+                "name": "logistic-chest-passive-provider",
+                "position": {
+                    "x": -12,
+                    "y": 0
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 107,
+                "name": "transport-belt",
+                "position": {
+                    "x": -9,
+                    "y": -1
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 108,
+                "name": "underground-belt",
+                "position": {
+                    "x": -9,
+                    "y": 0
+                },
+                "type": "input"
+            },
+            {
+                "entity_number": 109,
+                "name": "transport-belt",
+                "position": {
+                    "x": -8,
+                    "y": -1
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 110,
+                "name": "transport-belt",
+                "position": {
+                    "x": -7,
+                    "y": -1
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 111,
+                "name": "transport-belt",
+                "position": {
+                    "x": -6,
+                    "y": -1
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "green": [
+                            {
+                                "entity_id": 133
+                            }
+                        ]
+                    }
+                },
+                "control_behavior": {
+                    "circuit_contents_read_mode": 1,
+                    "circuit_enable_disable": false,
+                    "circuit_read_hand_contents": true
+                },
+                "entity_number": 112,
+                "name": "transport-belt",
+                "position": {
+                    "x": -7,
+                    "y": 0
+                }
+            },
+            {
+                "entity_number": 113,
+                "name": "underground-belt",
+                "position": {
+                    "x": -5,
+                    "y": -1
+                },
+                "type": "output"
+            },
+            {
+                "direction": 6,
+                "entity_number": 114,
+                "name": "inserter",
+                "position": {
+                    "x": -2,
+                    "y": 0
+                }
+            },
+            {
+                "entity_number": 115,
+                "name": "logistic-chest-requester",
+                "position": {
+                    "x": -3,
+                    "y": 0
+                },
+                "request_filters": [
+                    {
+                        "count": 50,
+                        "index": 1,
+                        "name": "used-up-uranium-fuel-cell"
+                    }
+                ]
+            },
+            {
+                "entity_number": 116,
+                "name": "centrifuge",
+                "position": {
+                    "x": 0,
+                    "y": 1
+                },
+                "recipe": "nuclear-fuel-reprocessing"
+            },
+            {
+                "entity_number": 117,
+                "name": "stack-inserter",
+                "position": {
+                    "x": 4,
+                    "y": -1
+                }
+            },
+            {
+                "entity_number": 118,
+                "name": "centrifuge",
+                "position": {
+                    "x": 4,
+                    "y": 1
+                },
+                "recipe": "kovarex-enrichment-process"
+            },
+            {
+                "entity_number": 119,
+                "name": "stack-inserter",
+                "position": {
+                    "x": 8,
+                    "y": -1
+                }
+            },
+            {
+                "entity_number": 120,
+                "name": "centrifuge",
+                "position": {
+                    "x": 8,
+                    "y": 1
+                },
+                "recipe": "kovarex-enrichment-process"
+            },
+            {
+                "entity_number": 121,
+                "name": "stack-inserter",
+                "position": {
+                    "x": 12,
+                    "y": -1
+                }
+            },
+            {
+                "entity_number": 122,
+                "name": "centrifuge",
+                "position": {
+                    "x": 12,
+                    "y": 1
+                },
+                "recipe": "kovarex-enrichment-process"
+            },
+            {
+                "entity_number": 123,
+                "name": "inserter",
+                "position": {
+                    "x": -14,
+                    "y": 1
+                }
+            },
+            {
+                "entity_number": 124,
+                "name": "assembling-machine-3",
+                "position": {
+                    "x": -13,
+                    "y": 3
+                },
+                "recipe": "uranium-fuel-cell"
+            },
+            {
+                "direction": 4,
+                "entity_number": 125,
+                "name": "inserter",
+                "position": {
+                    "x": -12,
+                    "y": 1
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 126,
+                "name": "inserter",
+                "position": {
+                    "x": -11,
+                    "y": 2
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 127,
+                "name": "transport-belt",
+                "position": {
+                    "x": -10,
+                    "y": 2
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 128,
+                "name": "underground-belt",
+                "position": {
+                    "x": -9,
+                    "y": 2
+                },
+                "type": "output"
+            },
+            {
+                "direction": 2,
+                "entity_number": 129,
+                "name": "express-transport-belt",
+                "position": {
+                    "x": -8,
+                    "y": 1
+                }
+            },
+            {
+                "entity_number": 130,
+                "name": "express-splitter",
+                "position": {
+                    "x": -7.5,
+                    "y": 2
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 131,
+                "name": "underground-belt",
+                "position": {
+                    "x": -6,
+                    "y": 2
+                },
+                "type": "input"
+            },
+            {
+                "entity_number": 132,
+                "name": "transport-belt",
+                "position": {
+                    "x": -7,
+                    "y": 1
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "green": [
+                            {
+                                "entity_id": 112
+                            }
+                        ]
+                    }
+                },
+                "control_behavior": {
+                    "circuit_condition": {
+                        "comparator": ">",
+                        "constant": 7,
+                        "first_signal": {
+                            "name": "uranium-235",
+                            "type": "item"
+                        }
+                    },
+                    "circuit_contents_read_mode": 0,
+                    "circuit_enable_disable": true,
+                    "circuit_read_hand_contents": false
+                },
+                "direction": 6,
+                "entity_number": 133,
+                "name": "transport-belt",
+                "position": {
+                    "x": -5,
+                    "y": 2
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 134,
+                "name": "splitter",
+                "position": {
+                    "x": -4,
+                    "y": 2.5
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 135,
+                "name": "underground-belt",
+                "position": {
+                    "x": -9,
+                    "y": 4
+                },
+                "type": "output"
+            },
+            {
+                "entity_number": 136,
+                "name": "transport-belt",
+                "position": {
+                    "x": -7,
+                    "y": 3
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 137,
+                "name": "transport-belt",
+                "position": {
+                    "x": -6,
+                    "y": 3
+                }
+            },
+            {
+                "entity_number": 138,
+                "name": "underground-belt",
+                "position": {
+                    "x": -5,
+                    "y": 4
+                },
+                "type": "input"
+            },
+            {
+                "direction": 6,
+                "entity_number": 139,
+                "name": "transport-belt",
+                "position": {
+                    "x": -5,
+                    "y": 3
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 140,
+                "name": "transport-belt",
+                "position": {
+                    "x": -3,
+                    "y": 3
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 141,
+                "name": "transport-belt",
+                "position": {
+                    "x": -2,
+                    "y": 3
+                }
+            },
+            {
+                "entity_number": 142,
+                "name": "transport-belt",
+                "position": {
+                    "x": -2,
+                    "y": 4
+                }
+            },
+            {
+                "entity_number": 143,
+                "name": "inserter",
+                "position": {
+                    "x": 0,
+                    "y": 3
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 144,
+                "name": "transport-belt",
+                "position": {
+                    "x": 0,
+                    "y": 4
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 145,
+                "name": "transport-belt",
+                "position": {
+                    "x": 3,
+                    "y": 4
+                }
+            },
+            {
+                "entity_number": 146,
+                "filters": [
+                    {
+                        "index": 1,
+                        "name": "uranium-238"
+                    }
+                ],
+                "name": "stack-filter-inserter",
+                "position": {
+                    "x": 3,
+                    "y": 3
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 147,
+                "name": "transport-belt",
+                "position": {
+                    "x": 5,
+                    "y": 4
+                }
+            },
+            {
+                "entity_number": 148,
+                "filters": [
+                    {
+                        "index": 1,
+                        "name": "uranium-235"
+                    }
+                ],
+                "name": "stack-filter-inserter",
+                "position": {
+                    "x": 5,
+                    "y": 3
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 149,
+                "name": "transport-belt",
+                "position": {
+                    "x": 7,
+                    "y": 4
+                }
+            },
+            {
+                "entity_number": 150,
+                "filters": [
+                    {
+                        "index": 1,
+                        "name": "uranium-238"
+                    }
+                ],
+                "name": "stack-filter-inserter",
+                "position": {
+                    "x": 7,
+                    "y": 3
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 151,
+                "name": "transport-belt",
+                "position": {
+                    "x": 9,
+                    "y": 4
+                }
+            },
+            {
+                "entity_number": 152,
+                "filters": [
+                    {
+                        "index": 1,
+                        "name": "uranium-235"
+                    }
+                ],
+                "name": "stack-filter-inserter",
+                "position": {
+                    "x": 9,
+                    "y": 3
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 153,
+                "name": "transport-belt",
+                "position": {
+                    "x": 11,
+                    "y": 4
+                }
+            },
+            {
+                "entity_number": 154,
+                "filters": [
+                    {
+                        "index": 1,
+                        "name": "uranium-238"
+                    }
+                ],
+                "name": "stack-filter-inserter",
+                "position": {
+                    "x": 11,
+                    "y": 3
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 155,
+                "name": "transport-belt",
+                "position": {
+                    "x": 13,
+                    "y": 4
+                }
+            },
+            {
+                "entity_number": 156,
+                "filters": [
+                    {
+                        "index": 1,
+                        "name": "uranium-235"
+                    }
+                ],
+                "name": "stack-filter-inserter",
+                "position": {
+                    "x": 13,
+                    "y": 3
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 157,
+                "name": "inserter",
+                "position": {
+                    "x": -12,
+                    "y": 5
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 158,
+                "name": "transport-belt",
+                "position": {
+                    "x": -12,
+                    "y": 6
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 159,
+                "name": "transport-belt",
+                "position": {
+                    "x": -11,
+                    "y": 6
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 160,
+                "name": "transport-belt",
+                "position": {
+                    "x": -10,
+                    "y": 6
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 161,
+                "name": "transport-belt",
+                "position": {
+                    "x": -9,
+                    "y": 5
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 162,
+                "name": "transport-belt",
+                "position": {
+                    "x": -9,
+                    "y": 6
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 163,
+                "name": "transport-belt",
+                "position": {
+                    "x": -8,
+                    "y": 6
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 164,
+                "name": "transport-belt",
+                "position": {
+                    "x": -7,
+                    "y": 6
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 165,
+                "name": "transport-belt",
+                "position": {
+                    "x": -6,
+                    "y": 6
+                }
+            },
+            {
+                "entity_number": 166,
+                "name": "transport-belt",
+                "position": {
+                    "x": -5,
+                    "y": 5
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 167,
+                "name": "transport-belt",
+                "position": {
+                    "x": -5,
+                    "y": 6
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 168,
+                "name": "splitter",
+                "position": {
+                    "x": -4,
+                    "y": 5.5
+                }
+            },
+            {
+                "entity_number": 169,
+                "name": "transport-belt",
+                "position": {
+                    "x": -2,
+                    "y": 5
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 170,
+                "name": "transport-belt",
+                "position": {
+                    "x": -2,
+                    "y": 6
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 171,
+                "name": "transport-belt",
+                "position": {
+                    "x": -3,
+                    "y": 6
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 172,
+                "name": "underground-belt",
+                "position": {
+                    "x": -1,
+                    "y": 5
+                },
+                "type": "output"
+            },
+            {
+                "direction": 4,
+                "entity_number": 173,
+                "name": "transport-belt",
+                "position": {
+                    "x": 0,
+                    "y": 5
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 174,
+                "name": "transport-belt",
+                "position": {
+                    "x": -1,
+                    "y": 6
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 175,
+                "name": "transport-belt",
+                "position": {
+                    "x": 0,
+                    "y": 6
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 176,
+                "name": "underground-belt",
+                "position": {
+                    "x": 2,
+                    "y": 5
+                },
+                "type": "output"
+            },
+            {
+                "direction": 6,
+                "entity_number": 177,
+                "name": "underground-belt",
+                "position": {
+                    "x": 1,
+                    "y": 5
+                },
+                "type": "input"
+            },
+            {
+                "direction": 6,
+                "entity_number": 178,
+                "name": "transport-belt",
+                "position": {
+                    "x": 1,
+                    "y": 6
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 179,
+                "name": "transport-belt",
+                "position": {
+                    "x": 2,
+                    "y": 6
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 180,
+                "name": "underground-belt",
+                "position": {
+                    "x": 4,
+                    "y": 5
+                },
+                "type": "input"
+            },
+            {
+                "direction": 4,
+                "entity_number": 181,
+                "name": "transport-belt",
+                "position": {
+                    "x": 3,
+                    "y": 5
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 182,
+                "name": "transport-belt",
+                "position": {
+                    "x": 4,
+                    "y": 6
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 183,
+                "name": "transport-belt",
+                "position": {
+                    "x": 3,
+                    "y": 6
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 184,
+                "name": "transport-belt",
+                "position": {
+                    "x": 5,
+                    "y": 5
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 185,
+                "name": "underground-belt",
+                "position": {
+                    "x": 6,
+                    "y": 5
+                },
+                "type": "output"
+            },
+            {
+                "direction": 6,
+                "entity_number": 186,
+                "name": "transport-belt",
+                "position": {
+                    "x": 6,
+                    "y": 6
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 187,
+                "name": "transport-belt",
+                "position": {
+                    "x": 5,
+                    "y": 6
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 188,
+                "name": "underground-belt",
+                "position": {
+                    "x": 8,
+                    "y": 5
+                },
+                "type": "input"
+            },
+            {
+                "direction": 4,
+                "entity_number": 189,
+                "name": "transport-belt",
+                "position": {
+                    "x": 7,
+                    "y": 5
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 190,
+                "name": "transport-belt",
+                "position": {
+                    "x": 8,
+                    "y": 6
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 191,
+                "name": "transport-belt",
+                "position": {
+                    "x": 7,
+                    "y": 6
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 192,
+                "name": "transport-belt",
+                "position": {
+                    "x": 9,
+                    "y": 5
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 193,
+                "name": "underground-belt",
+                "position": {
+                    "x": 10,
+                    "y": 5
+                },
+                "type": "output"
+            },
+            {
+                "direction": 6,
+                "entity_number": 194,
+                "name": "transport-belt",
+                "position": {
+                    "x": 10,
+                    "y": 6
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 195,
+                "name": "transport-belt",
+                "position": {
+                    "x": 9,
+                    "y": 6
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 196,
+                "name": "underground-belt",
+                "position": {
+                    "x": 12,
+                    "y": 5
+                },
+                "type": "input"
+            },
+            {
+                "direction": 4,
+                "entity_number": 197,
+                "name": "transport-belt",
+                "position": {
+                    "x": 11,
+                    "y": 5
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 198,
+                "name": "transport-belt",
+                "position": {
+                    "x": 11,
+                    "y": 6
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 199,
+                "name": "transport-belt",
+                "position": {
+                    "x": 13,
+                    "y": 5
+                }
+            },
+            {
+                "entity_number": 200,
+                "name": "substation",
+                "position": {
+                    "x": -12.5,
+                    "y": 14.5
+                }
+            },
+            {
+                "entity_number": 201,
+                "name": "substation",
+                "position": {
+                    "x": 5.5,
+                    "y": 14.5
+                }
+            }
+        ],
+        "icons": [
+            {
+                "index": 1,
+                "signal": {
+                    "name": "uranium-ore",
+                    "type": "item"
+                }
+            },
+            {
+                "index": 2,
+                "signal": {
+                    "name": "centrifuge",
+                    "type": "item"
+                }
+            },
+            {
+                "index": 3,
+                "signal": {
+                    "name": "uranium-235",
+                    "type": "item"
+                }
+            },
+            {
+                "index": 4,
+                "signal": {
+                    "name": "uranium-fuel-cell",
+                    "type": "item"
+                }
+            }
+        ],
+        "item": "blueprint",
+        "label": "Uranium enrichment process",
+        "tiles": [
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -16,
+                    "y": 0
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -16,
+                    "y": 1
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -16,
+                    "y": 2
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -16,
+                    "y": 3
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -16,
+                    "y": 4
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -16,
+                    "y": 5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -16,
+                    "y": 6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -16,
+                    "y": 7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -15,
+                    "y": 0
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -15,
+                    "y": 1
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -15,
+                    "y": 2
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -15,
+                    "y": 3
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -15,
+                    "y": 4
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -15,
+                    "y": 5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -15,
+                    "y": 6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -15,
+                    "y": 7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -14,
+                    "y": -5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -14,
+                    "y": -4
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -14,
+                    "y": -3
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -14,
+                    "y": -2
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -14,
+                    "y": -1
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -14,
+                    "y": 0
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -14,
+                    "y": 1
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -14,
+                    "y": 2
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -14,
+                    "y": 3
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -14,
+                    "y": 4
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -14,
+                    "y": 5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -14,
+                    "y": 6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -14,
+                    "y": 7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -13,
+                    "y": -5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -13,
+                    "y": -4
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -13,
+                    "y": -3
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -13,
+                    "y": -2
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -13,
+                    "y": -1
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -13,
+                    "y": 0
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -13,
+                    "y": 1
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -13,
+                    "y": 2
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -13,
+                    "y": 3
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -13,
+                    "y": 4
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -13,
+                    "y": 5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -13,
+                    "y": 6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -13,
+                    "y": 7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -12,
+                    "y": -12
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -12,
+                    "y": -11
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -12,
+                    "y": -10
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -12,
+                    "y": -9
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -12,
+                    "y": -8
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -12,
+                    "y": -7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -12,
+                    "y": -6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -12,
+                    "y": -5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -12,
+                    "y": -4
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -12,
+                    "y": -3
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -12,
+                    "y": -2
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -12,
+                    "y": -1
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -12,
+                    "y": 0
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -12,
+                    "y": 1
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -12,
+                    "y": 2
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -12,
+                    "y": 3
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -12,
+                    "y": 4
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -12,
+                    "y": 5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -12,
+                    "y": 6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -12,
+                    "y": 7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -11,
+                    "y": -12
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -11,
+                    "y": -11
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -11,
+                    "y": -10
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -11,
+                    "y": -9
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -11,
+                    "y": -8
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -11,
+                    "y": -7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -11,
+                    "y": -6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -11,
+                    "y": -5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -11,
+                    "y": -4
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -11,
+                    "y": -3
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -11,
+                    "y": -2
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -11,
+                    "y": -1
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -11,
+                    "y": 0
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -11,
+                    "y": 1
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -11,
+                    "y": 2
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -11,
+                    "y": 3
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -11,
+                    "y": 4
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -11,
+                    "y": 5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -11,
+                    "y": 6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -11,
+                    "y": 7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -10,
+                    "y": -12
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -10,
+                    "y": -11
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -10,
+                    "y": -10
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -10,
+                    "y": -9
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -10,
+                    "y": -8
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -10,
+                    "y": -7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -10,
+                    "y": -6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -10,
+                    "y": -5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -10,
+                    "y": -4
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -10,
+                    "y": -3
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -10,
+                    "y": -2
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -10,
+                    "y": -1
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -10,
+                    "y": 0
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -10,
+                    "y": 1
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -10,
+                    "y": 2
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -10,
+                    "y": 3
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -10,
+                    "y": 4
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -10,
+                    "y": 5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -10,
+                    "y": 6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -10,
+                    "y": 7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -9,
+                    "y": -12
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -9,
+                    "y": -11
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -9,
+                    "y": -10
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -9,
+                    "y": -9
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -9,
+                    "y": -8
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -9,
+                    "y": -7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -9,
+                    "y": -6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -9,
+                    "y": -5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -9,
+                    "y": -4
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -9,
+                    "y": -3
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -9,
+                    "y": -2
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -9,
+                    "y": -1
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -9,
+                    "y": 0
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -9,
+                    "y": 1
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -9,
+                    "y": 2
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -9,
+                    "y": 3
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -9,
+                    "y": 4
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -9,
+                    "y": 5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -9,
+                    "y": 6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -9,
+                    "y": 7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -8,
+                    "y": -12
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -8,
+                    "y": -11
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -8,
+                    "y": -10
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -8,
+                    "y": -9
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -8,
+                    "y": -8
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -8,
+                    "y": -7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -8,
+                    "y": -6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -8,
+                    "y": -5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -8,
+                    "y": -4
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -8,
+                    "y": -3
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -8,
+                    "y": -2
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -8,
+                    "y": -1
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -8,
+                    "y": 0
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -8,
+                    "y": 1
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -8,
+                    "y": 2
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -8,
+                    "y": 3
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -8,
+                    "y": 4
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -8,
+                    "y": 5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -8,
+                    "y": 6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -8,
+                    "y": 7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -7,
+                    "y": -12
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -7,
+                    "y": -11
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -7,
+                    "y": -10
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -7,
+                    "y": -9
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -7,
+                    "y": -8
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -7,
+                    "y": -7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -7,
+                    "y": -6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -7,
+                    "y": -5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -7,
+                    "y": -4
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -7,
+                    "y": -3
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -7,
+                    "y": -2
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -7,
+                    "y": -1
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -7,
+                    "y": 0
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -7,
+                    "y": 1
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -7,
+                    "y": 2
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -7,
+                    "y": 3
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -7,
+                    "y": 4
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -7,
+                    "y": 5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -7,
+                    "y": 6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -7,
+                    "y": 7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -6,
+                    "y": -12
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -6,
+                    "y": -11
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -6,
+                    "y": -10
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -6,
+                    "y": -9
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -6,
+                    "y": -8
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -6,
+                    "y": -7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -6,
+                    "y": -6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -6,
+                    "y": -5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -6,
+                    "y": -4
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -6,
+                    "y": -3
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -6,
+                    "y": -2
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -6,
+                    "y": -1
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -6,
+                    "y": 0
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -6,
+                    "y": 1
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -6,
+                    "y": 2
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -6,
+                    "y": 3
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -6,
+                    "y": 4
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -6,
+                    "y": 5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -6,
+                    "y": 6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -6,
+                    "y": 7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -5,
+                    "y": -12
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -5,
+                    "y": -11
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -5,
+                    "y": -10
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -5,
+                    "y": -9
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -5,
+                    "y": -8
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -5,
+                    "y": -7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -5,
+                    "y": -6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -5,
+                    "y": -5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -5,
+                    "y": -4
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -5,
+                    "y": -3
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -5,
+                    "y": -2
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -5,
+                    "y": -1
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -5,
+                    "y": 0
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -5,
+                    "y": 1
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -5,
+                    "y": 2
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -5,
+                    "y": 3
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -5,
+                    "y": 4
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -5,
+                    "y": 5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -5,
+                    "y": 6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -5,
+                    "y": 7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -4,
+                    "y": -12
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -4,
+                    "y": -11
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -4,
+                    "y": -10
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -4,
+                    "y": -9
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -4,
+                    "y": -8
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -4,
+                    "y": -7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -4,
+                    "y": -6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -4,
+                    "y": -5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -4,
+                    "y": -4
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -4,
+                    "y": -3
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -4,
+                    "y": -2
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -4,
+                    "y": -1
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -4,
+                    "y": 0
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -4,
+                    "y": 1
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -4,
+                    "y": 2
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -4,
+                    "y": 3
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -4,
+                    "y": 4
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -4,
+                    "y": 5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -4,
+                    "y": 6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -4,
+                    "y": 7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -3,
+                    "y": -12
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -3,
+                    "y": -11
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -3,
+                    "y": -10
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -3,
+                    "y": -9
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -3,
+                    "y": -8
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -3,
+                    "y": -7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -3,
+                    "y": -6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -3,
+                    "y": -5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -3,
+                    "y": -4
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -3,
+                    "y": -3
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -3,
+                    "y": -2
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -3,
+                    "y": -1
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -3,
+                    "y": 0
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -3,
+                    "y": 1
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -3,
+                    "y": 2
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -3,
+                    "y": 3
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -3,
+                    "y": 4
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -3,
+                    "y": 5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -3,
+                    "y": 6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -3,
+                    "y": 7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -2,
+                    "y": -12
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -2,
+                    "y": -11
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -2,
+                    "y": -10
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -2,
+                    "y": -9
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -2,
+                    "y": -8
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -2,
+                    "y": -7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -2,
+                    "y": -6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -2,
+                    "y": -5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -2,
+                    "y": -4
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -2,
+                    "y": -3
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -2,
+                    "y": -2
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -2,
+                    "y": -1
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -2,
+                    "y": 0
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -2,
+                    "y": 1
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -2,
+                    "y": 2
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -2,
+                    "y": 3
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -2,
+                    "y": 4
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -2,
+                    "y": 5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -2,
+                    "y": 6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -2,
+                    "y": 7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -1,
+                    "y": -12
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -1,
+                    "y": -11
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -1,
+                    "y": -10
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -1,
+                    "y": -9
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -1,
+                    "y": -8
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -1,
+                    "y": -7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -1,
+                    "y": -6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -1,
+                    "y": -5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -1,
+                    "y": -4
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -1,
+                    "y": -3
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -1,
+                    "y": -2
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -1,
+                    "y": -1
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -1,
+                    "y": 0
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -1,
+                    "y": 1
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -1,
+                    "y": 2
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": -1,
+                    "y": 3
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -1,
+                    "y": 4
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -1,
+                    "y": 5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -1,
+                    "y": 6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": -1,
+                    "y": 7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 0,
+                    "y": -12
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 0,
+                    "y": -11
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 0,
+                    "y": -10
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 0,
+                    "y": -9
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 0,
+                    "y": -8
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 0,
+                    "y": -7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 0,
+                    "y": -6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 0,
+                    "y": -5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 0,
+                    "y": -4
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 0,
+                    "y": -3
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 0,
+                    "y": -2
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 0,
+                    "y": -1
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 0,
+                    "y": 1
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 0,
+                    "y": 2
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 0,
+                    "y": 3
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 0,
+                    "y": 4
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 0,
+                    "y": 5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 0,
+                    "y": 6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 0,
+                    "y": 7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 1,
+                    "y": -12
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 1,
+                    "y": -11
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 1,
+                    "y": -10
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 1,
+                    "y": -9
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 1,
+                    "y": -8
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 1,
+                    "y": -7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 1,
+                    "y": -6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 1,
+                    "y": -5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 1,
+                    "y": -4
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 1,
+                    "y": -3
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 1,
+                    "y": -2
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 1,
+                    "y": -1
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 1,
+                    "y": 0
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 1,
+                    "y": 1
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 1,
+                    "y": 2
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 1,
+                    "y": 3
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 1,
+                    "y": 4
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 1,
+                    "y": 5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 1,
+                    "y": 6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 1,
+                    "y": 7
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 2,
+                    "y": -11
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 2,
+                    "y": -10
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 2,
+                    "y": -9
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 2,
+                    "y": -8
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 2,
+                    "y": -7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 2,
+                    "y": -6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 2,
+                    "y": -5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 2,
+                    "y": -4
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 2,
+                    "y": -3
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 2,
+                    "y": -2
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 2,
+                    "y": -1
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 2,
+                    "y": 0
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 2,
+                    "y": 1
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 2,
+                    "y": 2
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 2,
+                    "y": 3
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 2,
+                    "y": 4
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 2,
+                    "y": 5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 2,
+                    "y": 6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 2,
+                    "y": 7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 3,
+                    "y": -12
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 3,
+                    "y": -11
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 3,
+                    "y": -10
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 3,
+                    "y": -9
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 3,
+                    "y": -8
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 3,
+                    "y": -7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 3,
+                    "y": -6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 3,
+                    "y": -5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 3,
+                    "y": -4
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 3,
+                    "y": -3
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 3,
+                    "y": -2
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 3,
+                    "y": -1
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 3,
+                    "y": 0
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 3,
+                    "y": 1
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 3,
+                    "y": 2
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 3,
+                    "y": 3
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 3,
+                    "y": 4
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 3,
+                    "y": 5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 3,
+                    "y": 6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 3,
+                    "y": 7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 4,
+                    "y": -12
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 4,
+                    "y": -11
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 4,
+                    "y": -10
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 4,
+                    "y": -9
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 4,
+                    "y": -8
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 4,
+                    "y": -7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 4,
+                    "y": -6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 4,
+                    "y": -5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 4,
+                    "y": -4
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 4,
+                    "y": -3
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 4,
+                    "y": -2
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 4,
+                    "y": -1
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 4,
+                    "y": 0
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 4,
+                    "y": 1
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 4,
+                    "y": 2
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 4,
+                    "y": 3
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 4,
+                    "y": 4
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 4,
+                    "y": 5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 4,
+                    "y": 6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 4,
+                    "y": 7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 5,
+                    "y": -12
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 5,
+                    "y": -11
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 5,
+                    "y": -10
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 5,
+                    "y": -9
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 5,
+                    "y": -8
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 5,
+                    "y": -7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 5,
+                    "y": -6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 5,
+                    "y": -5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 5,
+                    "y": -4
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 5,
+                    "y": -3
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 5,
+                    "y": -2
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 5,
+                    "y": -1
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 5,
+                    "y": 0
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 5,
+                    "y": 1
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 5,
+                    "y": 2
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 5,
+                    "y": 3
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 5,
+                    "y": 4
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 5,
+                    "y": 5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 5,
+                    "y": 6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 5,
+                    "y": 7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 6,
+                    "y": -12
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 6,
+                    "y": -11
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 6,
+                    "y": -10
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 6,
+                    "y": -9
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 6,
+                    "y": -8
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 6,
+                    "y": -7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 6,
+                    "y": -6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 6,
+                    "y": -5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 6,
+                    "y": -4
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 6,
+                    "y": -3
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 6,
+                    "y": -2
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 6,
+                    "y": -1
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 6,
+                    "y": 0
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 6,
+                    "y": 1
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 6,
+                    "y": 2
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 6,
+                    "y": 3
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 6,
+                    "y": 4
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 6,
+                    "y": 5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 6,
+                    "y": 6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 6,
+                    "y": 7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 7,
+                    "y": -12
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 7,
+                    "y": -11
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 7,
+                    "y": -10
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 7,
+                    "y": -9
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 7,
+                    "y": -8
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 7,
+                    "y": -7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 7,
+                    "y": -6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 7,
+                    "y": -5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 7,
+                    "y": -4
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 7,
+                    "y": -3
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 7,
+                    "y": -2
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 7,
+                    "y": -1
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 7,
+                    "y": 0
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 7,
+                    "y": 1
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 7,
+                    "y": 2
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 7,
+                    "y": 3
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 7,
+                    "y": 4
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 7,
+                    "y": 5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 7,
+                    "y": 6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 7,
+                    "y": 7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 8,
+                    "y": -12
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 8,
+                    "y": -11
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 8,
+                    "y": -10
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 8,
+                    "y": -9
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 8,
+                    "y": -8
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 8,
+                    "y": -7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 8,
+                    "y": -6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 8,
+                    "y": -5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 8,
+                    "y": -4
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 8,
+                    "y": -3
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 8,
+                    "y": -2
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 8,
+                    "y": -1
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 8,
+                    "y": 0
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 8,
+                    "y": 1
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 8,
+                    "y": 2
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 8,
+                    "y": 3
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 8,
+                    "y": 4
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 8,
+                    "y": 5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 8,
+                    "y": 6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 8,
+                    "y": 7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 9,
+                    "y": -12
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 9,
+                    "y": -11
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 9,
+                    "y": -10
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 9,
+                    "y": -9
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 9,
+                    "y": -8
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 9,
+                    "y": -7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 9,
+                    "y": -6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 9,
+                    "y": -5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 9,
+                    "y": -4
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 9,
+                    "y": -3
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 9,
+                    "y": -2
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 9,
+                    "y": -1
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 9,
+                    "y": 0
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 9,
+                    "y": 1
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 9,
+                    "y": 2
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 9,
+                    "y": 3
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 9,
+                    "y": 4
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 9,
+                    "y": 5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 9,
+                    "y": 6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 9,
+                    "y": 7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 10,
+                    "y": -12
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 10,
+                    "y": -11
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 10,
+                    "y": -10
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 10,
+                    "y": -9
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 10,
+                    "y": -8
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 10,
+                    "y": -7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 10,
+                    "y": -6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 10,
+                    "y": -5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 10,
+                    "y": -4
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 10,
+                    "y": -3
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 10,
+                    "y": -2
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 10,
+                    "y": -1
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 10,
+                    "y": 0
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 10,
+                    "y": 1
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 10,
+                    "y": 2
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 10,
+                    "y": 3
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 10,
+                    "y": 4
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 10,
+                    "y": 5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 10,
+                    "y": 6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 10,
+                    "y": 7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 11,
+                    "y": -12
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 11,
+                    "y": -11
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 11,
+                    "y": -10
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 11,
+                    "y": -9
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 11,
+                    "y": -8
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 11,
+                    "y": -7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 11,
+                    "y": -6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 11,
+                    "y": -5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 11,
+                    "y": -4
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 11,
+                    "y": -3
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 11,
+                    "y": -2
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 11,
+                    "y": -1
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 11,
+                    "y": 0
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 11,
+                    "y": 1
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 11,
+                    "y": 2
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 11,
+                    "y": 3
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 11,
+                    "y": 4
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 11,
+                    "y": 5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 11,
+                    "y": 6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 11,
+                    "y": 7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 12,
+                    "y": -12
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 12,
+                    "y": -11
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 12,
+                    "y": -10
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 12,
+                    "y": -9
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 12,
+                    "y": -8
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 12,
+                    "y": -7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 12,
+                    "y": -6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 12,
+                    "y": -5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 12,
+                    "y": -4
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 12,
+                    "y": -3
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 12,
+                    "y": -2
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 12,
+                    "y": -1
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 12,
+                    "y": 0
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 12,
+                    "y": 1
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 12,
+                    "y": 2
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 12,
+                    "y": 3
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 12,
+                    "y": 4
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 12,
+                    "y": 5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 12,
+                    "y": 6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 12,
+                    "y": 7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 13,
+                    "y": -12
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 13,
+                    "y": -11
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 13,
+                    "y": -10
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 13,
+                    "y": -9
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 13,
+                    "y": -8
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 13,
+                    "y": -7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 13,
+                    "y": -6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 13,
+                    "y": -5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 13,
+                    "y": -4
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 13,
+                    "y": -3
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 13,
+                    "y": -2
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 13,
+                    "y": -1
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 13,
+                    "y": 0
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 13,
+                    "y": 1
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 13,
+                    "y": 2
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 13,
+                    "y": 3
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 13,
+                    "y": 4
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 13,
+                    "y": 5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 13,
+                    "y": 6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 13,
+                    "y": 7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 14,
+                    "y": -12
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 14,
+                    "y": -11
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 14,
+                    "y": -10
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 14,
+                    "y": -9
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 14,
+                    "y": -8
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 14,
+                    "y": -7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 14,
+                    "y": -6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 14,
+                    "y": -5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 14,
+                    "y": -4
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 14,
+                    "y": -3
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 14,
+                    "y": -2
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 14,
+                    "y": -1
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 14,
+                    "y": 0
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 14,
+                    "y": 1
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 14,
+                    "y": 2
+                }
+            },
+            {
+                "name": "hazard-concrete-right",
+                "position": {
+                    "x": 14,
+                    "y": 3
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 14,
+                    "y": 4
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 14,
+                    "y": 5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 14,
+                    "y": 6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 14,
+                    "y": 7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 15,
+                    "y": -12
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 15,
+                    "y": -11
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 15,
+                    "y": -10
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 15,
+                    "y": -9
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 15,
+                    "y": -8
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 15,
+                    "y": -7
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 15,
+                    "y": -6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 15,
+                    "y": -5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 15,
+                    "y": -4
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 15,
+                    "y": -3
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 15,
+                    "y": -2
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 15,
+                    "y": -1
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 15,
+                    "y": 0
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 15,
+                    "y": 1
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 15,
+                    "y": 2
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 15,
+                    "y": 3
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 15,
+                    "y": 4
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 15,
+                    "y": 5
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 15,
+                    "y": 6
+                }
+            },
+            {
+                "name": "concrete",
+                "position": {
+                    "x": 15,
+                    "y": 7
+                }
+            }
+        ],
+        "version": 64424640512
+    }
+}

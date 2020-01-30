@@ -1,0 +1,452 @@
+{
+    "blueprint": {
+        "entities": [
+            {
+                "entity_number": 1,
+                "name": "assembling-machine-1",
+                "position": {
+                    "x": -3,
+                    "y": -3
+                },
+                "recipe": "Simple Storage Chest"
+            },
+            {
+                "entity_number": 2,
+                "name": "assembling-machine-1",
+                "position": {
+                    "x": 1,
+                    "y": -3
+                },
+                "recipe": "iron-chest"
+            },
+            {
+                "entity_number": 3,
+                "name": "assembling-machine-1",
+                "position": {
+                    "x": 5,
+                    "y": -3
+                },
+                "recipe": "Simple Provider Chest"
+            },
+            {
+                "bar": 1,
+                "entity_number": 4,
+                "name": "iron-chest",
+                "position": {
+                    "x": -6,
+                    "y": -2
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 5,
+                "name": "inserter",
+                "position": {
+                    "x": -5,
+                    "y": -2
+                }
+            },
+            {
+                "entity_number": 6,
+                "name": "small-electric-pole",
+                "position": {
+                    "x": -3,
+                    "y": -1
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 7,
+                "name": "inserter",
+                "position": {
+                    "x": -2,
+                    "y": -1
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 8,
+                "name": "inserter",
+                "position": {
+                    "x": 0,
+                    "y": -1
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 9,
+                "name": "inserter",
+                "position": {
+                    "x": -1,
+                    "y": -2
+                }
+            },
+            {
+                "entity_number": 10,
+                "name": "small-electric-pole",
+                "position": {
+                    "x": 2,
+                    "y": -1
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 11,
+                "name": "inserter",
+                "position": {
+                    "x": 4,
+                    "y": -1
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 12,
+                "name": "inserter",
+                "position": {
+                    "x": 3,
+                    "y": -2
+                }
+            },
+            {
+                "bar": 1,
+                "entity_number": 13,
+                "name": "iron-chest",
+                "position": {
+                    "x": 8,
+                    "y": -2
+                }
+            },
+            {
+                "entity_number": 14,
+                "name": "small-electric-pole",
+                "position": {
+                    "x": 7,
+                    "y": -1
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 15,
+                "name": "inserter",
+                "position": {
+                    "x": 7,
+                    "y": -2
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 16,
+                "filters": [
+                    {
+                        "index": 1,
+                        "name": "iron-plate"
+                    },
+                    {
+                        "index": 2,
+                        "name": "electronic-circuit"
+                    }
+                ],
+                "name": "filter-inserter",
+                "position": {
+                    "x": -8,
+                    "y": 0
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 17,
+                "name": "transport-belt",
+                "position": {
+                    "x": -6,
+                    "y": 0
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 18,
+                "name": "transport-belt",
+                "position": {
+                    "x": -5,
+                    "y": 0
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 19,
+                "name": "transport-belt",
+                "position": {
+                    "x": -4,
+                    "y": 0
+                }
+            },
+            {
+                "entity_number": 20,
+                "name": "inserter",
+                "position": {
+                    "x": -2,
+                    "y": 1
+                }
+            },
+            {
+                "entity_number": 21,
+                "name": "small-electric-pole",
+                "position": {
+                    "x": -3,
+                    "y": 1
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 22,
+                "name": "transport-belt",
+                "position": {
+                    "x": -3,
+                    "y": 0
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 23,
+                "name": "transport-belt",
+                "position": {
+                    "x": -2,
+                    "y": 0
+                }
+            },
+            {
+                "entity_number": 24,
+                "name": "inserter",
+                "position": {
+                    "x": 0,
+                    "y": 1
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 25,
+                "name": "transport-belt",
+                "position": {
+                    "x": -1,
+                    "y": 0
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 26,
+                "name": "transport-belt",
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            },
+            {
+                "entity_number": 27,
+                "name": "small-electric-pole",
+                "position": {
+                    "x": 2,
+                    "y": 1
+                }
+            },
+            {
+                "entity_number": 28,
+                "name": "inserter",
+                "position": {
+                    "x": 1,
+                    "y": 1
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 29,
+                "name": "transport-belt",
+                "position": {
+                    "x": 1,
+                    "y": 0
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 30,
+                "name": "transport-belt",
+                "position": {
+                    "x": 2,
+                    "y": 0
+                }
+            },
+            {
+                "entity_number": 31,
+                "name": "inserter",
+                "position": {
+                    "x": 4,
+                    "y": 1
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 32,
+                "name": "transport-belt",
+                "position": {
+                    "x": 3,
+                    "y": 0
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 33,
+                "name": "transport-belt",
+                "position": {
+                    "x": 4,
+                    "y": 0
+                }
+            },
+            {
+                "entity_number": 34,
+                "name": "small-electric-pole",
+                "position": {
+                    "x": 5,
+                    "y": 1
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 35,
+                "name": "transport-belt",
+                "position": {
+                    "x": 5,
+                    "y": 0
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 36,
+                "name": "transport-belt",
+                "position": {
+                    "x": 6,
+                    "y": 0
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 37,
+                "name": "transport-belt",
+                "position": {
+                    "x": 7,
+                    "y": 0
+                }
+            },
+            {
+                "bar": 1,
+                "entity_number": 38,
+                "name": "iron-chest",
+                "position": {
+                    "x": -6,
+                    "y": 2
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 39,
+                "name": "inserter",
+                "position": {
+                    "x": -5,
+                    "y": 2
+                }
+            },
+            {
+                "entity_number": 40,
+                "name": "assembling-machine-1",
+                "position": {
+                    "x": -3,
+                    "y": 3
+                },
+                "recipe": "Construction Drone"
+            },
+            {
+                "direction": 2,
+                "entity_number": 41,
+                "name": "inserter",
+                "position": {
+                    "x": -1,
+                    "y": 2
+                }
+            },
+            {
+                "entity_number": 42,
+                "name": "assembling-machine-1",
+                "position": {
+                    "x": 1,
+                    "y": 3
+                },
+                "recipe": "iron-gear-wheel"
+            },
+            {
+                "direction": 6,
+                "entity_number": 43,
+                "name": "inserter",
+                "position": {
+                    "x": 3,
+                    "y": 2
+                }
+            },
+            {
+                "entity_number": 44,
+                "name": "assembling-machine-1",
+                "position": {
+                    "x": 5,
+                    "y": 3
+                },
+                "recipe": "Logistic Beacon"
+            },
+            {
+                "bar": 1,
+                "entity_number": 45,
+                "name": "iron-chest",
+                "position": {
+                    "x": 8,
+                    "y": 2
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 46,
+                "name": "inserter",
+                "position": {
+                    "x": 7,
+                    "y": 2
+                }
+            }
+        ],
+        "icons": [
+            {
+                "index": 1,
+                "signal": {
+                    "name": "Construction Drone",
+                    "type": "item"
+                }
+            },
+            {
+                "index": 2,
+                "signal": {
+                    "name": "Simple Provider Chest",
+                    "type": "item"
+                }
+            },
+            {
+                "index": 3,
+                "signal": {
+                    "name": "Simple Storage Chest",
+                    "type": "item"
+                }
+            },
+            {
+                "index": 4,
+                "signal": {
+                    "name": "Logistic Beacon",
+                    "type": "item"
+                }
+            }
+        ],
+        "item": "blueprint",
+        "version": 73014706177
+    }
+}

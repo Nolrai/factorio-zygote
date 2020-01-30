@@ -1,0 +1,382 @@
+{
+    "blueprint": {
+        "entities": [
+            {
+                "entity_number": 1,
+                "name": "straight-rail",
+                "position": {
+                    "x": -2,
+                    "y": -10
+                }
+            },
+            {
+                "entity_number": 2,
+                "name": "straight-rail",
+                "position": {
+                    "x": -2,
+                    "y": -8
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 3,
+                "name": "curved-rail",
+                "position": {
+                    "x": -1,
+                    "y": -5
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 4,
+                "name": "rail-signal",
+                "position": {
+                    "x": -0.5,
+                    "y": -8.5
+                }
+            },
+            {
+                "entity_number": 5,
+                "name": "straight-rail",
+                "position": {
+                    "x": -2,
+                    "y": -6
+                }
+            },
+            {
+                "entity_number": 6,
+                "name": "roboport",
+                "position": {
+                    "x": 11,
+                    "y": -4
+                }
+            },
+            {
+                "entity_number": 7,
+                "name": "straight-rail",
+                "position": {
+                    "x": -2,
+                    "y": -4
+                }
+            },
+            {
+                "direction": 5,
+                "entity_number": 8,
+                "name": "curved-rail",
+                "position": {
+                    "x": -3,
+                    "y": 1
+                }
+            },
+            {
+                "direction": 5,
+                "entity_number": 9,
+                "name": "straight-rail",
+                "position": {
+                    "x": 2,
+                    "y": -2
+                }
+            },
+            {
+                "direction": 7,
+                "entity_number": 10,
+                "name": "curved-rail",
+                "position": {
+                    "x": 5,
+                    "y": 1
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 11,
+                "name": "rail-signal",
+                "position": {
+                    "x": -6.5,
+                    "y": 0.5
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 12,
+                "name": "rail-chain-signal",
+                "position": {
+                    "x": 8.5,
+                    "y": 0.5
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 13,
+                "name": "straight-rail",
+                "position": {
+                    "x": -12,
+                    "y": 2
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 14,
+                "name": "straight-rail",
+                "position": {
+                    "x": -10,
+                    "y": 2
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 15,
+                "name": "straight-rail",
+                "position": {
+                    "x": -8,
+                    "y": 2
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 16,
+                "name": "straight-rail",
+                "position": {
+                    "x": -6,
+                    "y": 2
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 17,
+                "name": "straight-rail",
+                "position": {
+                    "x": -4,
+                    "y": 2
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 18,
+                "name": "straight-rail",
+                "position": {
+                    "x": -2,
+                    "y": 2
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 19,
+                "name": "straight-rail",
+                "position": {
+                    "x": 0,
+                    "y": 2
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 20,
+                "name": "straight-rail",
+                "position": {
+                    "x": 2,
+                    "y": 2
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 21,
+                "name": "straight-rail",
+                "position": {
+                    "x": 4,
+                    "y": 2
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 22,
+                "name": "straight-rail",
+                "position": {
+                    "x": 6,
+                    "y": 2
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 23,
+                "name": "straight-rail",
+                "position": {
+                    "x": 8,
+                    "y": 2
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 24,
+                "name": "straight-rail",
+                "position": {
+                    "x": 10,
+                    "y": 2
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 25,
+                "name": "curved-rail",
+                "position": {
+                    "x": -9,
+                    "y": 7
+                }
+            },
+            {
+                "direction": 3,
+                "entity_number": 26,
+                "name": "straight-rail",
+                "position": {
+                    "x": -6,
+                    "y": 4
+                }
+            },
+            {
+                "direction": 5,
+                "entity_number": 27,
+                "name": "rail-chain-signal",
+                "position": {
+                    "x": -3.5,
+                    "y": 4.5
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 28,
+                "name": "straight-rail",
+                "position": {
+                    "x": -12,
+                    "y": 8
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 29,
+                "name": "straight-rail",
+                "position": {
+                    "x": -10,
+                    "y": 8
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 30,
+                "name": "straight-rail",
+                "position": {
+                    "x": -8,
+                    "y": 8
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 31,
+                "name": "straight-rail",
+                "position": {
+                    "x": -6,
+                    "y": 8
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 32,
+                "name": "straight-rail",
+                "position": {
+                    "x": -4,
+                    "y": 8
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 33,
+                "name": "straight-rail",
+                "position": {
+                    "x": -2,
+                    "y": 8
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 34,
+                "name": "straight-rail",
+                "position": {
+                    "x": 0,
+                    "y": 8
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 35,
+                "name": "straight-rail",
+                "position": {
+                    "x": 2,
+                    "y": 8
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 36,
+                "name": "straight-rail",
+                "position": {
+                    "x": 4,
+                    "y": 8
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 37,
+                "name": "straight-rail",
+                "position": {
+                    "x": 6,
+                    "y": 8
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 38,
+                "name": "straight-rail",
+                "position": {
+                    "x": 8,
+                    "y": 8
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 39,
+                "name": "straight-rail",
+                "position": {
+                    "x": 10,
+                    "y": 8
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 40,
+                "name": "rail-signal",
+                "position": {
+                    "x": -12.5,
+                    "y": 9.5
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 41,
+                "name": "rail-signal",
+                "position": {
+                    "x": -7.5,
+                    "y": 9.5
+                }
+            }
+        ],
+        "icons": [
+            {
+                "index": 1,
+                "signal": {
+                    "name": "rail",
+                    "type": "item"
+                }
+            }
+        ],
+        "item": "blueprint",
+        "label": "Rails - In",
+        "version": 64424574976
+    }
+}

@@ -1,0 +1,1618 @@
+{
+    "blueprint": {
+        "entities": [
+            {
+                "connections": {
+                    "1": {
+                        "red": [
+                            {
+                                "entity_id": 3
+                            }
+                        ]
+                    }
+                },
+                "control_behavior": {
+                    "filters": [
+                        {
+                            "count": 1,
+                            "index": 1,
+                            "signal": {
+                                "name": "signal-green",
+                                "type": "virtual"
+                            }
+                        }
+                    ]
+                },
+                "entity_number": 1,
+                "name": "constant-combinator",
+                "position": {
+                    "x": -3,
+                    "y": -5
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "red": [
+                            {
+                                "entity_id": 4
+                            }
+                        ]
+                    }
+                },
+                "control_behavior": {
+                    "filters": [
+                        {
+                            "count": 1,
+                            "index": 1,
+                            "signal": {
+                                "name": "signal-green",
+                                "type": "virtual"
+                            }
+                        }
+                    ]
+                },
+                "entity_number": 2,
+                "name": "constant-combinator",
+                "position": {
+                    "x": -3,
+                    "y": -4
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "green": [
+                            {
+                                "entity_id": 5
+                            },
+                            {
+                                "entity_id": 35
+                            }
+                        ],
+                        "red": [
+                            {
+                                "entity_id": 1
+                            },
+                            {
+                                "entity_id": 5
+                            }
+                        ]
+                    }
+                },
+                "control_behavior": {
+                    "circuit_condition": {
+                        "comparator": ">",
+                        "constant": 90,
+                        "first_signal": {
+                            "name": "signal-anything",
+                            "type": "virtual"
+                        }
+                    },
+                    "use_colors": true
+                },
+                "entity_number": 3,
+                "name": "small-lamp",
+                "position": {
+                    "x": -2,
+                    "y": -5
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "green": [
+                            {
+                                "entity_id": 7
+                            },
+                            {
+                                "entity_id": 35
+                            }
+                        ],
+                        "red": [
+                            {
+                                "entity_id": 2
+                            },
+                            {
+                                "entity_id": 7
+                            }
+                        ]
+                    }
+                },
+                "control_behavior": {
+                    "circuit_condition": {
+                        "comparator": ">",
+                        "constant": 80,
+                        "first_signal": {
+                            "name": "signal-anything",
+                            "type": "virtual"
+                        }
+                    },
+                    "use_colors": true
+                },
+                "entity_number": 4,
+                "name": "small-lamp",
+                "position": {
+                    "x": -2,
+                    "y": -4
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "green": [
+                            {
+                                "entity_id": 3
+                            },
+                            {
+                                "entity_id": 6
+                            }
+                        ],
+                        "red": [
+                            {
+                                "entity_id": 3
+                            },
+                            {
+                                "entity_id": 6
+                            }
+                        ]
+                    }
+                },
+                "control_behavior": {
+                    "circuit_condition": {
+                        "comparator": ">",
+                        "constant": 90,
+                        "first_signal": {
+                            "name": "signal-anything",
+                            "type": "virtual"
+                        }
+                    },
+                    "use_colors": true
+                },
+                "entity_number": 5,
+                "name": "small-lamp",
+                "position": {
+                    "x": -1,
+                    "y": -5
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "green": [
+                            {
+                                "entity_id": 5
+                            }
+                        ],
+                        "red": [
+                            {
+                                "entity_id": 5
+                            }
+                        ]
+                    }
+                },
+                "control_behavior": {
+                    "circuit_condition": {
+                        "comparator": ">",
+                        "constant": 90,
+                        "first_signal": {
+                            "name": "signal-anything",
+                            "type": "virtual"
+                        }
+                    },
+                    "use_colors": true
+                },
+                "entity_number": 6,
+                "name": "small-lamp",
+                "position": {
+                    "x": 0,
+                    "y": -5
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "green": [
+                            {
+                                "entity_id": 4
+                            },
+                            {
+                                "entity_id": 8
+                            }
+                        ],
+                        "red": [
+                            {
+                                "entity_id": 4
+                            },
+                            {
+                                "entity_id": 8
+                            }
+                        ]
+                    }
+                },
+                "control_behavior": {
+                    "circuit_condition": {
+                        "comparator": ">",
+                        "constant": 80,
+                        "first_signal": {
+                            "name": "signal-anything",
+                            "type": "virtual"
+                        }
+                    },
+                    "use_colors": true
+                },
+                "entity_number": 7,
+                "name": "small-lamp",
+                "position": {
+                    "x": -1,
+                    "y": -4
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "green": [
+                            {
+                                "entity_id": 7
+                            }
+                        ],
+                        "red": [
+                            {
+                                "entity_id": 7
+                            }
+                        ]
+                    }
+                },
+                "control_behavior": {
+                    "circuit_condition": {
+                        "comparator": ">",
+                        "constant": 80,
+                        "first_signal": {
+                            "name": "signal-anything",
+                            "type": "virtual"
+                        }
+                    },
+                    "use_colors": true
+                },
+                "entity_number": 8,
+                "name": "small-lamp",
+                "position": {
+                    "x": 0,
+                    "y": -4
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "red": [
+                            {
+                                "entity_id": 11
+                            }
+                        ]
+                    }
+                },
+                "control_behavior": {
+                    "filters": [
+                        {
+                            "count": 1,
+                            "index": 1,
+                            "signal": {
+                                "name": "signal-green",
+                                "type": "virtual"
+                            }
+                        }
+                    ]
+                },
+                "entity_number": 9,
+                "name": "constant-combinator",
+                "position": {
+                    "x": -3,
+                    "y": -3
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "red": [
+                            {
+                                "entity_id": 12
+                            }
+                        ]
+                    }
+                },
+                "control_behavior": {
+                    "filters": [
+                        {
+                            "count": 1,
+                            "index": 1,
+                            "signal": {
+                                "name": "signal-yellow",
+                                "type": "virtual"
+                            }
+                        }
+                    ]
+                },
+                "entity_number": 10,
+                "name": "constant-combinator",
+                "position": {
+                    "x": -3,
+                    "y": -2
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "green": [
+                            {
+                                "entity_id": 13
+                            },
+                            {
+                                "entity_id": 35
+                            }
+                        ],
+                        "red": [
+                            {
+                                "entity_id": 9
+                            },
+                            {
+                                "entity_id": 13
+                            }
+                        ]
+                    }
+                },
+                "control_behavior": {
+                    "circuit_condition": {
+                        "comparator": ">",
+                        "constant": 70,
+                        "first_signal": {
+                            "name": "signal-anything",
+                            "type": "virtual"
+                        }
+                    },
+                    "use_colors": true
+                },
+                "entity_number": 11,
+                "name": "small-lamp",
+                "position": {
+                    "x": -2,
+                    "y": -3
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "green": [
+                            {
+                                "entity_id": 16
+                            },
+                            {
+                                "entity_id": 35
+                            }
+                        ],
+                        "red": [
+                            {
+                                "entity_id": 10
+                            },
+                            {
+                                "entity_id": 16
+                            }
+                        ]
+                    }
+                },
+                "control_behavior": {
+                    "circuit_condition": {
+                        "comparator": ">",
+                        "constant": 60,
+                        "first_signal": {
+                            "name": "signal-anything",
+                            "type": "virtual"
+                        }
+                    },
+                    "use_colors": true
+                },
+                "entity_number": 12,
+                "name": "small-lamp",
+                "position": {
+                    "x": -2,
+                    "y": -2
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "green": [
+                            {
+                                "entity_id": 11
+                            },
+                            {
+                                "entity_id": 14
+                            }
+                        ],
+                        "red": [
+                            {
+                                "entity_id": 11
+                            },
+                            {
+                                "entity_id": 14
+                            }
+                        ]
+                    }
+                },
+                "control_behavior": {
+                    "circuit_condition": {
+                        "comparator": ">",
+                        "constant": 70,
+                        "first_signal": {
+                            "name": "signal-anything",
+                            "type": "virtual"
+                        }
+                    },
+                    "use_colors": true
+                },
+                "entity_number": 13,
+                "name": "small-lamp",
+                "position": {
+                    "x": -1,
+                    "y": -3
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "green": [
+                            {
+                                "entity_id": 13
+                            }
+                        ],
+                        "red": [
+                            {
+                                "entity_id": 13
+                            }
+                        ]
+                    }
+                },
+                "control_behavior": {
+                    "circuit_condition": {
+                        "comparator": ">",
+                        "constant": 70,
+                        "first_signal": {
+                            "name": "signal-anything",
+                            "type": "virtual"
+                        }
+                    },
+                    "use_colors": true
+                },
+                "entity_number": 14,
+                "name": "small-lamp",
+                "position": {
+                    "x": 0,
+                    "y": -3
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "green": [
+                            {
+                                "entity_id": 16
+                            }
+                        ],
+                        "red": [
+                            {
+                                "entity_id": 16
+                            }
+                        ]
+                    }
+                },
+                "control_behavior": {
+                    "circuit_condition": {
+                        "comparator": ">",
+                        "constant": 60,
+                        "first_signal": {
+                            "name": "signal-anything",
+                            "type": "virtual"
+                        }
+                    },
+                    "use_colors": true
+                },
+                "entity_number": 15,
+                "name": "small-lamp",
+                "position": {
+                    "x": 0,
+                    "y": -2
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "green": [
+                            {
+                                "entity_id": 15
+                            },
+                            {
+                                "entity_id": 12
+                            }
+                        ],
+                        "red": [
+                            {
+                                "entity_id": 12
+                            },
+                            {
+                                "entity_id": 15
+                            }
+                        ]
+                    }
+                },
+                "control_behavior": {
+                    "circuit_condition": {
+                        "comparator": ">",
+                        "constant": 60,
+                        "first_signal": {
+                            "name": "signal-anything",
+                            "type": "virtual"
+                        }
+                    },
+                    "use_colors": true
+                },
+                "entity_number": 16,
+                "name": "small-lamp",
+                "position": {
+                    "x": -1,
+                    "y": -2
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "red": [
+                            {
+                                "entity_id": 19
+                            }
+                        ]
+                    }
+                },
+                "control_behavior": {
+                    "filters": [
+                        {
+                            "count": 1,
+                            "index": 1,
+                            "signal": {
+                                "name": "signal-yellow",
+                                "type": "virtual"
+                            }
+                        }
+                    ]
+                },
+                "entity_number": 17,
+                "name": "constant-combinator",
+                "position": {
+                    "x": -3,
+                    "y": -1
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "red": [
+                            {
+                                "entity_id": 20
+                            }
+                        ]
+                    }
+                },
+                "control_behavior": {
+                    "filters": [
+                        {
+                            "count": 1,
+                            "index": 1,
+                            "signal": {
+                                "name": "signal-yellow",
+                                "type": "virtual"
+                            }
+                        }
+                    ]
+                },
+                "entity_number": 18,
+                "name": "constant-combinator",
+                "position": {
+                    "x": -3,
+                    "y": 0
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "green": [
+                            {
+                                "entity_id": 21
+                            },
+                            {
+                                "entity_id": 35
+                            }
+                        ],
+                        "red": [
+                            {
+                                "entity_id": 17
+                            },
+                            {
+                                "entity_id": 21
+                            }
+                        ]
+                    }
+                },
+                "control_behavior": {
+                    "circuit_condition": {
+                        "comparator": ">",
+                        "constant": 50,
+                        "first_signal": {
+                            "name": "signal-anything",
+                            "type": "virtual"
+                        }
+                    },
+                    "use_colors": true
+                },
+                "entity_number": 19,
+                "name": "small-lamp",
+                "position": {
+                    "x": -2,
+                    "y": -1
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "green": [
+                            {
+                                "entity_id": 24
+                            },
+                            {
+                                "entity_id": 35
+                            }
+                        ],
+                        "red": [
+                            {
+                                "entity_id": 18
+                            },
+                            {
+                                "entity_id": 24
+                            }
+                        ]
+                    }
+                },
+                "control_behavior": {
+                    "circuit_condition": {
+                        "comparator": ">",
+                        "constant": 40,
+                        "first_signal": {
+                            "name": "signal-anything",
+                            "type": "virtual"
+                        }
+                    },
+                    "use_colors": true
+                },
+                "entity_number": 20,
+                "name": "small-lamp",
+                "position": {
+                    "x": -2,
+                    "y": 0
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "green": [
+                            {
+                                "entity_id": 19
+                            },
+                            {
+                                "entity_id": 22
+                            }
+                        ],
+                        "red": [
+                            {
+                                "entity_id": 19
+                            },
+                            {
+                                "entity_id": 22
+                            }
+                        ]
+                    }
+                },
+                "control_behavior": {
+                    "circuit_condition": {
+                        "comparator": ">",
+                        "constant": 50,
+                        "first_signal": {
+                            "name": "signal-anything",
+                            "type": "virtual"
+                        }
+                    },
+                    "use_colors": true
+                },
+                "entity_number": 21,
+                "name": "small-lamp",
+                "position": {
+                    "x": -1,
+                    "y": -1
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "green": [
+                            {
+                                "entity_id": 21
+                            }
+                        ],
+                        "red": [
+                            {
+                                "entity_id": 21
+                            }
+                        ]
+                    }
+                },
+                "control_behavior": {
+                    "circuit_condition": {
+                        "comparator": ">",
+                        "constant": 50,
+                        "first_signal": {
+                            "name": "signal-anything",
+                            "type": "virtual"
+                        }
+                    },
+                    "use_colors": true
+                },
+                "entity_number": 22,
+                "name": "small-lamp",
+                "position": {
+                    "x": 0,
+                    "y": -1
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "green": [
+                            {
+                                "entity_id": 24
+                            }
+                        ],
+                        "red": [
+                            {
+                                "entity_id": 24
+                            }
+                        ]
+                    }
+                },
+                "control_behavior": {
+                    "circuit_condition": {
+                        "comparator": ">",
+                        "constant": 40,
+                        "first_signal": {
+                            "name": "signal-anything",
+                            "type": "virtual"
+                        }
+                    },
+                    "use_colors": true
+                },
+                "entity_number": 23,
+                "name": "small-lamp",
+                "position": {
+                    "x": 0,
+                    "y": 0
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "green": [
+                            {
+                                "entity_id": 23
+                            },
+                            {
+                                "entity_id": 20
+                            }
+                        ],
+                        "red": [
+                            {
+                                "entity_id": 20
+                            },
+                            {
+                                "entity_id": 23
+                            }
+                        ]
+                    }
+                },
+                "control_behavior": {
+                    "circuit_condition": {
+                        "comparator": ">",
+                        "constant": 40,
+                        "first_signal": {
+                            "name": "signal-anything",
+                            "type": "virtual"
+                        }
+                    },
+                    "use_colors": true
+                },
+                "entity_number": 24,
+                "name": "small-lamp",
+                "position": {
+                    "x": -1,
+                    "y": 0
+                }
+            },
+            {
+                "entity_number": 25,
+                "name": "substation",
+                "position": {
+                    "x": 4.5,
+                    "y": 0.5
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "red": [
+                            {
+                                "entity_id": 28
+                            }
+                        ]
+                    }
+                },
+                "control_behavior": {
+                    "filters": [
+                        {
+                            "count": 1,
+                            "index": 1,
+                            "signal": {
+                                "name": "signal-yellow",
+                                "type": "virtual"
+                            }
+                        }
+                    ]
+                },
+                "entity_number": 26,
+                "name": "constant-combinator",
+                "position": {
+                    "x": -3,
+                    "y": 1
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "red": [
+                            {
+                                "entity_id": 29
+                            }
+                        ]
+                    }
+                },
+                "control_behavior": {
+                    "filters": [
+                        {
+                            "count": 1,
+                            "index": 1,
+                            "signal": {
+                                "name": "signal-yellow",
+                                "type": "virtual"
+                            }
+                        }
+                    ]
+                },
+                "entity_number": 27,
+                "name": "constant-combinator",
+                "position": {
+                    "x": -3,
+                    "y": 2
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "green": [
+                            {
+                                "entity_id": 30
+                            },
+                            {
+                                "entity_id": 35
+                            }
+                        ],
+                        "red": [
+                            {
+                                "entity_id": 26
+                            },
+                            {
+                                "entity_id": 30
+                            }
+                        ]
+                    }
+                },
+                "control_behavior": {
+                    "circuit_condition": {
+                        "comparator": ">",
+                        "constant": 30,
+                        "first_signal": {
+                            "name": "signal-anything",
+                            "type": "virtual"
+                        }
+                    },
+                    "use_colors": true
+                },
+                "entity_number": 28,
+                "name": "small-lamp",
+                "position": {
+                    "x": -2,
+                    "y": 1
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "green": [
+                            {
+                                "entity_id": 33
+                            },
+                            {
+                                "entity_id": 35
+                            }
+                        ],
+                        "red": [
+                            {
+                                "entity_id": 27
+                            },
+                            {
+                                "entity_id": 33
+                            }
+                        ]
+                    }
+                },
+                "control_behavior": {
+                    "circuit_condition": {
+                        "comparator": ">",
+                        "constant": 20,
+                        "first_signal": {
+                            "name": "signal-anything",
+                            "type": "virtual"
+                        }
+                    },
+                    "use_colors": true
+                },
+                "entity_number": 29,
+                "name": "small-lamp",
+                "position": {
+                    "x": -2,
+                    "y": 2
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "green": [
+                            {
+                                "entity_id": 28
+                            },
+                            {
+                                "entity_id": 31
+                            }
+                        ],
+                        "red": [
+                            {
+                                "entity_id": 28
+                            },
+                            {
+                                "entity_id": 31
+                            }
+                        ]
+                    }
+                },
+                "control_behavior": {
+                    "circuit_condition": {
+                        "comparator": ">",
+                        "constant": 30,
+                        "first_signal": {
+                            "name": "signal-anything",
+                            "type": "virtual"
+                        }
+                    },
+                    "use_colors": true
+                },
+                "entity_number": 30,
+                "name": "small-lamp",
+                "position": {
+                    "x": -1,
+                    "y": 1
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "green": [
+                            {
+                                "entity_id": 30
+                            }
+                        ],
+                        "red": [
+                            {
+                                "entity_id": 30
+                            }
+                        ]
+                    }
+                },
+                "control_behavior": {
+                    "circuit_condition": {
+                        "comparator": ">",
+                        "constant": 30,
+                        "first_signal": {
+                            "name": "signal-anything",
+                            "type": "virtual"
+                        }
+                    },
+                    "use_colors": true
+                },
+                "entity_number": 31,
+                "name": "small-lamp",
+                "position": {
+                    "x": 0,
+                    "y": 1
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "green": [
+                            {
+                                "entity_id": 33
+                            }
+                        ],
+                        "red": [
+                            {
+                                "entity_id": 33
+                            }
+                        ]
+                    }
+                },
+                "control_behavior": {
+                    "circuit_condition": {
+                        "comparator": ">",
+                        "constant": 20,
+                        "first_signal": {
+                            "name": "signal-anything",
+                            "type": "virtual"
+                        }
+                    },
+                    "use_colors": true
+                },
+                "entity_number": 32,
+                "name": "small-lamp",
+                "position": {
+                    "x": 0,
+                    "y": 2
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "green": [
+                            {
+                                "entity_id": 32
+                            },
+                            {
+                                "entity_id": 29
+                            }
+                        ],
+                        "red": [
+                            {
+                                "entity_id": 29
+                            },
+                            {
+                                "entity_id": 32
+                            }
+                        ]
+                    }
+                },
+                "control_behavior": {
+                    "circuit_condition": {
+                        "comparator": ">",
+                        "constant": 20,
+                        "first_signal": {
+                            "name": "signal-anything",
+                            "type": "virtual"
+                        }
+                    },
+                    "use_colors": true
+                },
+                "entity_number": 33,
+                "name": "small-lamp",
+                "position": {
+                    "x": -1,
+                    "y": 2
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "green": [
+                            {
+                                "entity_id": 35
+                            }
+                        ]
+                    },
+                    "2": {
+                        "green": [
+                            {
+                                "circuit_id": 1,
+                                "entity_id": 44
+                            }
+                        ],
+                        "red": [
+                            {
+                                "circuit_id": 2,
+                                "entity_id": 44
+                            }
+                        ]
+                    }
+                },
+                "control_behavior": {
+                    "decider_conditions": {
+                        "comparator": "<",
+                        "constant": 20,
+                        "copy_count_from_input": false,
+                        "first_signal": {
+                            "name": "signal-anything",
+                            "type": "virtual"
+                        },
+                        "output_signal": {
+                            "name": "signal-A",
+                            "type": "virtual"
+                        }
+                    }
+                },
+                "direction": 2,
+                "entity_number": 34,
+                "name": "decider-combinator",
+                "position": {
+                    "x": 2.5,
+                    "y": 2
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "green": [
+                            {
+                                "entity_id": 29
+                            },
+                            {
+                                "entity_id": 28
+                            },
+                            {
+                                "entity_id": 20
+                            },
+                            {
+                                "entity_id": 19
+                            },
+                            {
+                                "entity_id": 12
+                            },
+                            {
+                                "entity_id": 11
+                            },
+                            {
+                                "entity_id": 4
+                            },
+                            {
+                                "entity_id": 3
+                            },
+                            {
+                                "circuit_id": 1,
+                                "entity_id": 34
+                            },
+                            {
+                                "entity_id": 38
+                            },
+                            {
+                                "entity_id": 39
+                            }
+                        ]
+                    }
+                },
+                "control_behavior": {
+                    "output_signal": {
+                        "name": "signal-Z",
+                        "type": "virtual"
+                    }
+                },
+                "entity_number": 35,
+                "name": "accumulator",
+                "position": {
+                    "x": -4.5,
+                    "y": 3.5
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "red": [
+                            {
+                                "entity_id": 39
+                            }
+                        ]
+                    }
+                },
+                "control_behavior": {
+                    "filters": [
+                        {
+                            "count": 1,
+                            "index": 1,
+                            "signal": {
+                                "name": "signal-red",
+                                "type": "virtual"
+                            }
+                        }
+                    ]
+                },
+                "entity_number": 36,
+                "name": "constant-combinator",
+                "position": {
+                    "x": -3,
+                    "y": 3
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "red": [
+                            {
+                                "entity_id": 38
+                            }
+                        ]
+                    }
+                },
+                "control_behavior": {
+                    "filters": [
+                        {
+                            "count": 1,
+                            "index": 1,
+                            "signal": {
+                                "name": "signal-red",
+                                "type": "virtual"
+                            }
+                        }
+                    ]
+                },
+                "entity_number": 37,
+                "name": "constant-combinator",
+                "position": {
+                    "x": -3,
+                    "y": 4
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "green": [
+                            {
+                                "entity_id": 35
+                            },
+                            {
+                                "entity_id": 41
+                            }
+                        ],
+                        "red": [
+                            {
+                                "entity_id": 37
+                            },
+                            {
+                                "entity_id": 41
+                            }
+                        ]
+                    }
+                },
+                "control_behavior": {
+                    "circuit_condition": {
+                        "comparator": ">",
+                        "constant": 0,
+                        "first_signal": {
+                            "name": "signal-anything",
+                            "type": "virtual"
+                        }
+                    },
+                    "use_colors": true
+                },
+                "entity_number": 38,
+                "name": "small-lamp",
+                "position": {
+                    "x": -2,
+                    "y": 4
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "green": [
+                            {
+                                "entity_id": 35
+                            },
+                            {
+                                "entity_id": 42
+                            }
+                        ],
+                        "red": [
+                            {
+                                "entity_id": 36
+                            },
+                            {
+                                "entity_id": 42
+                            }
+                        ]
+                    }
+                },
+                "control_behavior": {
+                    "circuit_condition": {
+                        "comparator": ">",
+                        "constant": 10,
+                        "first_signal": {
+                            "name": "signal-anything",
+                            "type": "virtual"
+                        }
+                    },
+                    "use_colors": true
+                },
+                "entity_number": 39,
+                "name": "small-lamp",
+                "position": {
+                    "x": -2,
+                    "y": 3
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "green": [
+                            {
+                                "entity_id": 41
+                            }
+                        ],
+                        "red": [
+                            {
+                                "entity_id": 41
+                            }
+                        ]
+                    }
+                },
+                "control_behavior": {
+                    "circuit_condition": {
+                        "comparator": ">",
+                        "constant": 0,
+                        "first_signal": {
+                            "name": "signal-anything",
+                            "type": "virtual"
+                        }
+                    },
+                    "use_colors": true
+                },
+                "entity_number": 40,
+                "name": "small-lamp",
+                "position": {
+                    "x": 0,
+                    "y": 4
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "green": [
+                            {
+                                "entity_id": 38
+                            },
+                            {
+                                "entity_id": 40
+                            }
+                        ],
+                        "red": [
+                            {
+                                "entity_id": 38
+                            },
+                            {
+                                "entity_id": 40
+                            }
+                        ]
+                    }
+                },
+                "control_behavior": {
+                    "circuit_condition": {
+                        "comparator": ">",
+                        "constant": 0,
+                        "first_signal": {
+                            "name": "signal-anything",
+                            "type": "virtual"
+                        }
+                    },
+                    "use_colors": true
+                },
+                "entity_number": 41,
+                "name": "small-lamp",
+                "position": {
+                    "x": -1,
+                    "y": 4
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "green": [
+                            {
+                                "entity_id": 39
+                            },
+                            {
+                                "entity_id": 43
+                            }
+                        ],
+                        "red": [
+                            {
+                                "entity_id": 39
+                            },
+                            {
+                                "entity_id": 43
+                            }
+                        ]
+                    }
+                },
+                "control_behavior": {
+                    "circuit_condition": {
+                        "comparator": ">",
+                        "constant": 10,
+                        "first_signal": {
+                            "name": "signal-anything",
+                            "type": "virtual"
+                        }
+                    },
+                    "use_colors": true
+                },
+                "entity_number": 42,
+                "name": "small-lamp",
+                "position": {
+                    "x": -1,
+                    "y": 3
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "green": [
+                            {
+                                "entity_id": 42
+                            }
+                        ],
+                        "red": [
+                            {
+                                "entity_id": 42
+                            }
+                        ]
+                    }
+                },
+                "control_behavior": {
+                    "circuit_condition": {
+                        "comparator": ">",
+                        "constant": 10,
+                        "first_signal": {
+                            "name": "signal-anything",
+                            "type": "virtual"
+                        }
+                    },
+                    "use_colors": true
+                },
+                "entity_number": 43,
+                "name": "small-lamp",
+                "position": {
+                    "x": 0,
+                    "y": 3
+                }
+            },
+            {
+                "connections": {
+                    "1": {
+                        "green": [
+                            {
+                                "circuit_id": 2,
+                                "entity_id": 34
+                            }
+                        ]
+                    },
+                    "2": {
+                        "red": [
+                            {
+                                "circuit_id": 2,
+                                "entity_id": 34
+                            },
+                            {
+                                "entity_id": 45
+                            }
+                        ]
+                    }
+                },
+                "control_behavior": {
+                    "arithmetic_conditions": {
+                        "constant": -1,
+                        "first_signal": {
+                            "name": "signal-each",
+                            "type": "virtual"
+                        },
+                        "operation": "*",
+                        "output_signal": {
+                            "name": "signal-each",
+                            "type": "virtual"
+                        }
+                    }
+                },
+                "direction": 2,
+                "entity_number": 44,
+                "name": "arithmetic-combinator",
+                "position": {
+                    "x": 2.5,
+                    "y": 3
+                }
+            },
+            {
+                "alert_parameters": {
+                    "alert_message": "Low power",
+                    "icon_signal_id": {
+                        "name": "accumulator",
+                        "type": "item"
+                    },
+                    "show_alert": true,
+                    "show_on_map": true
+                },
+                "connections": {
+                    "1": {
+                        "red": [
+                            {
+                                "circuit_id": 2,
+                                "entity_id": 44
+                            }
+                        ]
+                    }
+                },
+                "control_behavior": {
+                    "circuit_condition": {
+                        "comparator": "=",
+                        "constant": 1,
+                        "first_signal": {
+                            "name": "signal-A",
+                            "type": "virtual"
+                        }
+                    },
+                    "circuit_parameters": {
+                        "instrument_id": 0,
+                        "note_id": 13,
+                        "signal_value_is_pitch": false
+                    }
+                },
+                "entity_number": 45,
+                "name": "programmable-speaker",
+                "parameters": {
+                    "allow_polyphony": false,
+                    "playback_globally": true,
+                    "playback_volume": 1
+                },
+                "position": {
+                    "x": 4,
+                    "y": 4
+                }
+            }
+        ],
+        "icons": [
+            {
+                "index": 1,
+                "signal": {
+                    "name": "programmable-speaker",
+                    "type": "item"
+                }
+            }
+        ],
+        "item": "blueprint",
+        "label": "Power Indicator with Alarm",
+        "version": 64425361411
+    }
+}
