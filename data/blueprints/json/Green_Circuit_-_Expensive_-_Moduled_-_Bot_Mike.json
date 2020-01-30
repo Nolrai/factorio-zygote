@@ -1,0 +1,573 @@
+{
+    "blueprint": {
+        "entities": [
+            {
+                "entity_number": 1,
+                "items": {
+                    "speed-module-3": 2
+                },
+                "name": "beacon",
+                "position": {
+                    "x": -8,
+                    "y": -5
+                }
+            },
+            {
+                "entity_number": 2,
+                "items": {
+                    "speed-module-3": 2
+                },
+                "name": "beacon",
+                "position": {
+                    "x": -5,
+                    "y": -5
+                }
+            },
+            {
+                "entity_number": 3,
+                "items": {
+                    "speed-module-3": 2
+                },
+                "name": "beacon",
+                "position": {
+                    "x": -2,
+                    "y": -5
+                }
+            },
+            {
+                "entity_number": 4,
+                "items": {
+                    "speed-module-3": 2
+                },
+                "name": "beacon",
+                "position": {
+                    "x": 1,
+                    "y": -5
+                }
+            },
+            {
+                "entity_number": 5,
+                "items": {
+                    "speed-module-3": 2
+                },
+                "name": "beacon",
+                "position": {
+                    "x": 4,
+                    "y": -5
+                }
+            },
+            {
+                "entity_number": 6,
+                "items": {
+                    "speed-module-3": 2
+                },
+                "name": "beacon",
+                "position": {
+                    "x": 7,
+                    "y": -5
+                }
+            },
+            {
+                "entity_number": 7,
+                "name": "logistic-chest-requester",
+                "position": {
+                    "x": -5,
+                    "y": -3
+                },
+                "request_filters": [
+                    {
+                        "count": 200,
+                        "index": 1,
+                        "name": "copper-plate"
+                    }
+                ]
+            },
+            {
+                "bar": 2,
+                "entity_number": 8,
+                "name": "iron-chest",
+                "position": {
+                    "x": -4,
+                    "y": -3
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 9,
+                "name": "stack-inserter",
+                "position": {
+                    "x": -3,
+                    "y": -3
+                }
+            },
+            {
+                "entity_number": 10,
+                "name": "logistic-chest-requester",
+                "position": {
+                    "x": -1,
+                    "y": -3
+                },
+                "request_filters": [
+                    {
+                        "count": 200,
+                        "index": 1,
+                        "name": "iron-plate"
+                    }
+                ]
+            },
+            {
+                "bar": 2,
+                "entity_number": 11,
+                "name": "logistic-chest-requester",
+                "position": {
+                    "x": -2,
+                    "y": -3
+                },
+                "request_filters": [
+                    {
+                        "count": 200,
+                        "index": 1,
+                        "name": "copper-cable"
+                    }
+                ]
+            },
+            {
+                "direction": 2,
+                "entity_number": 12,
+                "name": "stack-inserter",
+                "position": {
+                    "x": 1,
+                    "y": -3
+                }
+            },
+            {
+                "bar": 2,
+                "entity_number": 13,
+                "name": "logistic-chest-requester",
+                "position": {
+                    "x": 0,
+                    "y": -3
+                },
+                "request_filters": [
+                    {
+                        "count": 200,
+                        "index": 1,
+                        "name": "copper-cable"
+                    }
+                ]
+            },
+            {
+                "bar": 2,
+                "entity_number": 14,
+                "name": "iron-chest",
+                "position": {
+                    "x": 2,
+                    "y": -3
+                }
+            },
+            {
+                "entity_number": 15,
+                "name": "logistic-chest-requester",
+                "position": {
+                    "x": 3,
+                    "y": -3
+                },
+                "request_filters": [
+                    {
+                        "count": 200,
+                        "index": 1,
+                        "name": "copper-plate"
+                    }
+                ]
+            },
+            {
+                "entity_number": 16,
+                "items": {
+                    "productivity-module-3": 4
+                },
+                "name": "assembling-machine-3",
+                "position": {
+                    "x": -4,
+                    "y": 0
+                },
+                "recipe": "copper-cable"
+            },
+            {
+                "entity_number": 17,
+                "name": "stack-inserter",
+                "position": {
+                    "x": -5,
+                    "y": -2
+                }
+            },
+            {
+                "entity_number": 18,
+                "name": "medium-electric-pole",
+                "position": {
+                    "x": -3,
+                    "y": -2
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 19,
+                "name": "stack-inserter",
+                "position": {
+                    "x": -4,
+                    "y": -2
+                }
+            },
+            {
+                "entity_number": 20,
+                "items": {
+                    "productivity-module-3": 4
+                },
+                "name": "assembling-machine-3",
+                "position": {
+                    "x": -1,
+                    "y": 0
+                },
+                "recipe": "electronic-circuit"
+            },
+            {
+                "entity_number": 21,
+                "name": "stack-inserter",
+                "position": {
+                    "x": -2,
+                    "y": -2
+                }
+            },
+            {
+                "entity_number": 22,
+                "name": "stack-inserter",
+                "position": {
+                    "x": -1,
+                    "y": -2
+                }
+            },
+            {
+                "entity_number": 23,
+                "name": "medium-electric-pole",
+                "position": {
+                    "x": 1,
+                    "y": -2
+                }
+            },
+            {
+                "entity_number": 24,
+                "items": {
+                    "productivity-module-3": 4
+                },
+                "name": "assembling-machine-3",
+                "position": {
+                    "x": 2,
+                    "y": 0
+                },
+                "recipe": "copper-cable"
+            },
+            {
+                "entity_number": 25,
+                "name": "stack-inserter",
+                "position": {
+                    "x": 0,
+                    "y": -2
+                }
+            },
+            {
+                "entity_number": 26,
+                "name": "stack-inserter",
+                "position": {
+                    "x": 3,
+                    "y": -2
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 27,
+                "name": "stack-inserter",
+                "position": {
+                    "x": 2,
+                    "y": -2
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 28,
+                "name": "stack-inserter",
+                "position": {
+                    "x": -5,
+                    "y": 2
+                }
+            },
+            {
+                "entity_number": 29,
+                "name": "logistic-chest-requester",
+                "position": {
+                    "x": -5,
+                    "y": 3
+                },
+                "request_filters": [
+                    {
+                        "count": 200,
+                        "index": 1,
+                        "name": "copper-plate"
+                    }
+                ]
+            },
+            {
+                "entity_number": 30,
+                "name": "medium-electric-pole",
+                "position": {
+                    "x": -3,
+                    "y": 2
+                }
+            },
+            {
+                "bar": 2,
+                "entity_number": 31,
+                "name": "iron-chest",
+                "position": {
+                    "x": -4,
+                    "y": 3
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 32,
+                "name": "stack-inserter",
+                "position": {
+                    "x": -3,
+                    "y": 3
+                }
+            },
+            {
+                "entity_number": 33,
+                "name": "stack-inserter",
+                "position": {
+                    "x": -4,
+                    "y": 2
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 34,
+                "name": "stack-inserter",
+                "position": {
+                    "x": -2,
+                    "y": 2
+                }
+            },
+            {
+                "control_behavior": {
+                    "connect_to_logistic_network": true,
+                    "logistic_condition": {
+                        "comparator": "<",
+                        "constant": 100000,
+                        "first_signal": {
+                            "name": "electronic-circuit",
+                            "type": "item"
+                        }
+                    }
+                },
+                "entity_number": 35,
+                "name": "stack-inserter",
+                "position": {
+                    "x": -1,
+                    "y": 2
+                }
+            },
+            {
+                "entity_number": 36,
+                "name": "logistic-chest-passive-provider",
+                "position": {
+                    "x": -1,
+                    "y": 3
+                }
+            },
+            {
+                "bar": 2,
+                "entity_number": 37,
+                "name": "logistic-chest-requester",
+                "position": {
+                    "x": -2,
+                    "y": 3
+                },
+                "request_filters": [
+                    {
+                        "count": 200,
+                        "index": 1,
+                        "name": "copper-cable"
+                    }
+                ]
+            },
+            {
+                "entity_number": 38,
+                "name": "medium-electric-pole",
+                "position": {
+                    "x": 1,
+                    "y": 2
+                }
+            },
+            {
+                "bar": 2,
+                "entity_number": 39,
+                "name": "logistic-chest-requester",
+                "position": {
+                    "x": 0,
+                    "y": 3
+                },
+                "request_filters": [
+                    {
+                        "count": 200,
+                        "index": 1,
+                        "name": "copper-cable"
+                    }
+                ]
+            },
+            {
+                "direction": 2,
+                "entity_number": 40,
+                "name": "stack-inserter",
+                "position": {
+                    "x": 1,
+                    "y": 3
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 41,
+                "name": "stack-inserter",
+                "position": {
+                    "x": 0,
+                    "y": 2
+                }
+            },
+            {
+                "bar": 2,
+                "entity_number": 42,
+                "name": "iron-chest",
+                "position": {
+                    "x": 2,
+                    "y": 3
+                }
+            },
+            {
+                "entity_number": 43,
+                "name": "stack-inserter",
+                "position": {
+                    "x": 2,
+                    "y": 2
+                }
+            },
+            {
+                "direction": 4,
+                "entity_number": 44,
+                "name": "stack-inserter",
+                "position": {
+                    "x": 3,
+                    "y": 2
+                }
+            },
+            {
+                "entity_number": 45,
+                "name": "logistic-chest-requester",
+                "position": {
+                    "x": 3,
+                    "y": 3
+                },
+                "request_filters": [
+                    {
+                        "count": 200,
+                        "index": 1,
+                        "name": "copper-plate"
+                    }
+                ]
+            },
+            {
+                "entity_number": 46,
+                "items": {
+                    "speed-module-3": 2
+                },
+                "name": "beacon",
+                "position": {
+                    "x": -8,
+                    "y": 5
+                }
+            },
+            {
+                "entity_number": 47,
+                "items": {
+                    "speed-module-3": 2
+                },
+                "name": "beacon",
+                "position": {
+                    "x": -5,
+                    "y": 5
+                }
+            },
+            {
+                "entity_number": 48,
+                "items": {
+                    "speed-module-3": 2
+                },
+                "name": "beacon",
+                "position": {
+                    "x": -2,
+                    "y": 5
+                }
+            },
+            {
+                "entity_number": 49,
+                "items": {
+                    "speed-module-3": 2
+                },
+                "name": "beacon",
+                "position": {
+                    "x": 1,
+                    "y": 5
+                }
+            },
+            {
+                "entity_number": 50,
+                "items": {
+                    "speed-module-3": 2
+                },
+                "name": "beacon",
+                "position": {
+                    "x": 4,
+                    "y": 5
+                }
+            },
+            {
+                "entity_number": 51,
+                "items": {
+                    "speed-module-3": 2
+                },
+                "name": "beacon",
+                "position": {
+                    "x": 7,
+                    "y": 5
+                }
+            }
+        ],
+        "icons": [
+            {
+                "index": 1,
+                "signal": {
+                    "name": "electronic-circuit",
+                    "type": "item"
+                }
+            },
+            {
+                "index": 2,
+                "signal": {
+                    "name": "beacon",
+                    "type": "item"
+                }
+            }
+        ],
+        "item": "blueprint",
+        "label": "Green Circuits - Expensive - Moduled - Mike",
+        "version": 64425885696
+    }
+}

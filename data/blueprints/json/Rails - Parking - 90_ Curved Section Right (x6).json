@@ -1,0 +1,291 @@
+{
+    "blueprint": {
+        "entities": [
+            {
+                "direction": 6,
+                "entity_number": 1,
+                "name": "curved-rail",
+                "position": {
+                    "x": -7,
+                    "y": -3
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 2,
+                "name": "curved-rail",
+                "position": {
+                    "x": -3,
+                    "y": -3
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 3,
+                "name": "curved-rail",
+                "position": {
+                    "x": 1,
+                    "y": -3
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 4,
+                "name": "straight-rail",
+                "position": {
+                    "x": -2,
+                    "y": -4
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 5,
+                "name": "straight-rail",
+                "position": {
+                    "x": 0,
+                    "y": -4
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 6,
+                "name": "curved-rail",
+                "position": {
+                    "x": 5,
+                    "y": -3
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 7,
+                "name": "straight-rail",
+                "position": {
+                    "x": 2,
+                    "y": -4
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 8,
+                "name": "straight-rail",
+                "position": {
+                    "x": 4,
+                    "y": -4
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 9,
+                "name": "curved-rail",
+                "position": {
+                    "x": 9,
+                    "y": -3
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 10,
+                "name": "straight-rail",
+                "position": {
+                    "x": 6,
+                    "y": -4
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 11,
+                "name": "straight-rail",
+                "position": {
+                    "x": 8,
+                    "y": -4
+                }
+            },
+            {
+                "direction": 6,
+                "entity_number": 12,
+                "name": "curved-rail",
+                "position": {
+                    "x": 13,
+                    "y": -3
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 13,
+                "name": "straight-rail",
+                "position": {
+                    "x": 10,
+                    "y": -4
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 14,
+                "name": "straight-rail",
+                "position": {
+                    "x": 12,
+                    "y": -4
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 15,
+                "name": "straight-rail",
+                "position": {
+                    "x": 14,
+                    "y": -4
+                }
+            },
+            {
+                "direction": 2,
+                "entity_number": 16,
+                "name": "straight-rail",
+                "position": {
+                    "x": 16,
+                    "y": -4
+                }
+            },
+            {
+                "direction": 7,
+                "entity_number": 17,
+                "name": "straight-rail",
+                "position": {
+                    "x": -10,
+                    "y": 0
+                }
+            },
+            {
+                "direction": 7,
+                "entity_number": 18,
+                "name": "straight-rail",
+                "position": {
+                    "x": -6,
+                    "y": 0
+                }
+            },
+            {
+                "direction": 7,
+                "entity_number": 19,
+                "name": "straight-rail",
+                "position": {
+                    "x": -2,
+                    "y": 0
+                }
+            },
+            {
+                "direction": 7,
+                "entity_number": 20,
+                "name": "straight-rail",
+                "position": {
+                    "x": 2,
+                    "y": 0
+                }
+            },
+            {
+                "direction": 7,
+                "entity_number": 21,
+                "name": "straight-rail",
+                "position": {
+                    "x": 6,
+                    "y": 0
+                }
+            },
+            {
+                "direction": 7,
+                "entity_number": 22,
+                "name": "straight-rail",
+                "position": {
+                    "x": 10,
+                    "y": 0
+                }
+            },
+            {
+                "direction": 1,
+                "entity_number": 23,
+                "name": "curved-rail",
+                "position": {
+                    "x": -13,
+                    "y": 3
+                }
+            },
+            {
+                "direction": 1,
+                "entity_number": 24,
+                "name": "curved-rail",
+                "position": {
+                    "x": -9,
+                    "y": 3
+                }
+            },
+            {
+                "direction": 1,
+                "entity_number": 25,
+                "name": "curved-rail",
+                "position": {
+                    "x": -5,
+                    "y": 3
+                }
+            },
+            {
+                "direction": 1,
+                "entity_number": 26,
+                "name": "curved-rail",
+                "position": {
+                    "x": -1,
+                    "y": 3
+                }
+            },
+            {
+                "direction": 1,
+                "entity_number": 27,
+                "name": "curved-rail",
+                "position": {
+                    "x": 3,
+                    "y": 3
+                }
+            },
+            {
+                "direction": 1,
+                "entity_number": 28,
+                "name": "curved-rail",
+                "position": {
+                    "x": 7,
+                    "y": 3
+                }
+            }
+        ],
+        "icons": [
+            {
+                "index": 1,
+                "signal": {
+                    "name": "rail",
+                    "type": "item"
+                }
+            },
+            {
+                "index": 2,
+                "signal": {
+                    "name": "signal-C",
+                    "type": "virtual"
+                }
+            },
+            {
+                "index": 3,
+                "signal": {
+                    "name": "signal-R",
+                    "type": "virtual"
+                }
+            },
+            {
+                "index": 4,
+                "signal": {
+                    "name": "locomotive",
+                    "type": "item"
+                }
+            }
+        ],
+        "item": "blueprint",
+        "label": "Parking - 90' Curved Section Right (6cars x6)",
+        "version": 64424837121
+    }
+}
